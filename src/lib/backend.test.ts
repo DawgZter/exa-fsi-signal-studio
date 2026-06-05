@@ -1,3 +1,6 @@
+import { mkdtemp, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import path from "node:path";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { NextRequest } from "next/server";
 import { POST as createStudioRoute } from "@/app/api/studios/route";
@@ -13,6 +16,7 @@ import {
   rowHash,
   signalReviewBatchResponseSchema,
 } from "./signal-review-context";
+import { readStudios, writeSignals, writeStudios } from "./store";
 import type { SignalRecord, SignalStudio } from "./domain";
 
 afterEach(() => {
@@ -345,6 +349,53 @@ describe("public API safety", () => {
       provisioned: false,
       mode: "unauthorized",
     });
+  });
+
+  it("falls back to preview studio creation when local live provisioning has no Exa key", async () => {
+    const storePath = await mkdtemp(path.join(tmpdir(), "fsi-studio-test-"));
+    try {
+      vi.stubEnv("NODE_ENV", "development");
+      vi.stubEnv("DATA_STORE_BACKEND", "file");
+      vi.stubEnv("SIGNAL_STORE_PATH", storePath);
+      vi.stubEnv("STUDIO_ADMIN_SECRET", "");
+      vi.stubEnv("EXA_API_KEY", "");
+      await writeSignals([signal({ id: "sig_bank_of_america_preview" })]);
+      await writeStudios([]);
+
+      const response = await createStudioRoute(
+        new NextRequest("https://example.com/api/studios", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            accountDomain: "bankofamerica.com",
+            createProspectWebset: true,
+          }),
+        }),
+      );
+      const body = (await response.json()) as {
+        studio?: SignalStudio;
+        liveProvisioning?: {
+          requested: boolean;
+          authorized: boolean;
+          provisioned: boolean;
+          mode: string;
+          reason?: string;
+        };
+      };
+
+      expect(response.status).toBe(201);
+      expect(body.studio?.prospectWebset).toBeUndefined();
+      expect(body.liveProvisioning).toEqual({
+        requested: true,
+        authorized: true,
+        provisioned: false,
+        mode: "preview",
+        reason: "missing_exa_api_key",
+      });
+      expect(await readStudios()).toHaveLength(1);
+    } finally {
+      await rm(storePath, { recursive: true, force: true });
+    }
   });
 
   it("fails closed for production sync when no sync secret is configured", () => {

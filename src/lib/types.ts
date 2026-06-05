@@ -51,6 +51,7 @@ export interface CreateStudioResponse {
     authorized: boolean;
     provisioned: boolean;
     mode: "live" | "preview";
+    reason?: "missing_exa_api_key";
   };
 }
 

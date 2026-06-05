@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { canProvisionLiveStudio } from "@/lib/auth";
+import { getOptionalEnv } from "@/lib/env";
 import { createSignalStudio, createStudioInputSchema } from "@/lib/studios";
 import { HttpError, jsonError, readJsonBody } from "@/lib/http";
 import { readStudios } from "@/lib/store";
@@ -25,6 +26,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
     const input = parsed.data;
     const liveRequested = input.createProspectWebset !== false;
     const liveAuthorized = liveRequested && canProvisionLiveStudio(request);
+    const hasExaApiKey = Boolean(getOptionalEnv("EXA_API_KEY"));
     if (liveRequested && !liveAuthorized) {
       return NextResponse.json(
         {
@@ -40,10 +42,11 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
         { status: 401 },
       );
     }
+    const shouldProvisionLive = liveRequested && liveAuthorized && hasExaApiKey;
 
     const result = await createSignalStudio({
       ...input,
-      createProspectWebset: liveRequested,
+      createProspectWebset: shouldProvisionLive,
     });
     return NextResponse.json(
       {
@@ -53,6 +56,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
           authorized: liveAuthorized,
           provisioned: Boolean(result.studio.prospectWebset),
           mode: result.studio.prospectWebset ? "live" : "preview",
+          reason: liveRequested && liveAuthorized && !hasExaApiKey ? "missing_exa_api_key" : undefined,
         },
       },
       { status: 201 },
