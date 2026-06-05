@@ -18,7 +18,7 @@ Artifacts:
 - deepline/data/fsi-signal-refresh-test/exa_signal_2_5_10_results.csv
 - deepline/data/fsi-signal-refresh-test/crustdata_signal_5_10_queries.csv
 - deepline/data/fsi-signal-refresh-test/crustdata_signal_5_10_results.csv
-- data/research/fsi-signal-2-5-10-test-candidates.csv
+- Raw candidate CSV omitted from the public repository; this memo preserves the useful counts and examples.
 
 Flattened candidate rows after basic FSI + AI filtering:
 

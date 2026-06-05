@@ -17,7 +17,7 @@ export type ProspectWebsetResult = {
 };
 
 export type ProspectWebsetResultsResponse = {
-  status: "preview" | "loading" | "live";
+  status: "preview" | "loading" | "live" | "degraded";
   studioSlug: string;
   accountName: string;
   companyDomain: string;
@@ -27,6 +27,7 @@ export type ProspectWebsetResultsResponse = {
   resultCount: number;
   results: ProspectWebsetResult[];
   lastFetchedAt: string;
+  error?: string;
 };
 
 function previewResults(studio: SignalStudio): ProspectWebsetResult[] {
@@ -62,6 +63,27 @@ function previewResponse(
     resultCount: results.length,
     results,
     lastFetchedAt,
+  };
+}
+
+function degradedResponse(
+  studio: SignalStudio,
+  lastFetchedAt: string,
+  error: unknown,
+): ProspectWebsetResultsResponse {
+  const results = previewResults(studio);
+  return {
+    status: "degraded",
+    studioSlug: studio.slug,
+    accountName: studio.accountName,
+    companyDomain: studio.companyDomain,
+    monitorQuery: studio.monitorQuery,
+    monitorCriteria: studio.monitorCriteria,
+    prospectWebset: studio.prospectWebset,
+    resultCount: results.length,
+    results,
+    lastFetchedAt,
+    error: error instanceof Error ? error.message : "Live Webset results are temporarily unavailable.",
   };
 }
 
@@ -118,7 +140,7 @@ export async function getProspectWebsetResults(
       lastFetchedAt,
     };
   } catch (error) {
-    console.warn("Falling back to source-pack preview for prospect Webset results.", error);
-    return previewResponse(studio, lastFetchedAt, studio.prospectWebset);
+    console.warn("Live prospect Webset results unavailable; serving degraded source-pack evidence.", error);
+    return degradedResponse(studio, lastFetchedAt, error);
   }
 }

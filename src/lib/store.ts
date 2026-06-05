@@ -116,7 +116,15 @@ async function writeFileJson<T>(key: StoreKey, value: T): Promise<void> {
 }
 
 async function readJson<T>(key: StoreKey, fallback: T): Promise<T> {
-  const value = blobStoreEnabled() ? await readBlobJson<T>(key) : await readFileJson<T>(key);
+  if (blobStoreEnabled()) {
+    const value = await readBlobJson<T>(key);
+    if (value !== undefined) {
+      return value;
+    }
+    return (await readSeedJson<T>(key)) ?? fallback;
+  }
+
+  const value = await readFileJson<T>(key);
   return value ?? fallback;
 }
 

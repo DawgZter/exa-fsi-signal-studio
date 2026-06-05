@@ -192,7 +192,7 @@ describe("prospect Webset semantic query safety", () => {
 });
 
 describe("prospect Webset results", () => {
-  it("falls back to source-pack preview when the live Webset is not accessible", async () => {
+  it("marks the feed degraded and falls back to source-pack evidence when the live Webset is not accessible", async () => {
     vi.stubEnv("EXA_API_KEY", "");
 
     const result = await getProspectWebsetResults(
@@ -205,7 +205,9 @@ describe("prospect Webset results", () => {
       }),
     );
 
-    expect(result.status).toBe("preview");
+    expect(result.status).toBe("degraded");
+    expect(result.prospectWebset?.websetId).toBe("webset_seed");
+    expect(result.error).toMatch(/EXA_API_KEY/);
     expect(result.results[0]).toMatchObject({
       title: "Internal source-pack preview",
       evidenceSummary: "Example Bank has an internal source-pack signal about AI risk.",

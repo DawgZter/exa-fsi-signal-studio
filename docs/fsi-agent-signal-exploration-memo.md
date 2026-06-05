@@ -32,7 +32,7 @@ Flattened output:
 
 Key files:
 
-- `data/research/fsi-agent-signal-candidates.csv`
+- Raw candidate CSV omitted from the public repository.
 - `deepline/data/fsi-agent-signal-exploration/exa_public_web_results.csv`
 - `deepline/data/fsi-agent-signal-exploration/exa_news_results.csv`
 - `deepline/data/fsi-agent-signal-exploration/exa_financial_report_results.csv`

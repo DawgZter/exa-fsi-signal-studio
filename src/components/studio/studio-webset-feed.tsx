@@ -16,6 +16,7 @@ type FetchState = "loading" | "ready" | "error";
 const STATUS_LABEL: Record<StudioWebsetItemsResponse["status"], string> = {
   live: "Live Webset",
   loading: "Building Webset",
+  degraded: "Live Webset unavailable",
   preview: "Preview only",
 };
 
@@ -57,8 +58,8 @@ export function StudioWebsetFeed({
         if (cancelled) return;
         setData(payload);
         setFetchState("ready");
-        // The Webset is still crawling — poll until it returns live results.
-        if (payload.status === "loading" && polls < MAX_POLLS) {
+        // Keep polling while the live Webset is still building or temporarily unavailable.
+        if ((payload.status === "loading" || payload.status === "degraded") && polls < MAX_POLLS) {
           polls += 1;
           timer = setTimeout(() => load(true), POLL_INTERVAL_MS);
         }
@@ -82,7 +83,9 @@ export function StudioWebsetFeed({
       ? `What this Webset is surfacing for ${accountName}`
       : data?.status === "loading"
         ? `Building ${accountName}'s Exa Webset`
-        : `What this Webset would surface for ${accountName}`;
+        : data?.status === "degraded"
+          ? `Live Webset results are temporarily unavailable for ${accountName}`
+          : `What this Webset would surface for ${accountName}`;
 
   return (
     <section className="border-b border-line">
@@ -153,10 +156,13 @@ function FeedBody({ data }: { data: StudioWebsetItemsResponse }) {
   if (data.results.length === 0) {
     return (
       <div className="rounded-md border border-dashed border-line-strong bg-surface px-6 py-14 text-center">
-        <p className="text-[13px] font-medium text-ink">No results yet</p>
+        <p className="text-[13px] font-medium text-ink">
+          {data.status === "degraded" ? "Live results temporarily unavailable" : "No results yet"}
+        </p>
         <p className="mx-auto mt-1 max-w-md text-[12.5px] leading-relaxed text-ink-muted">
-          This Webset hasn&rsquo;t surfaced matching public-web evidence yet. It re-runs on a schedule,
-          so the feed will fill in over time.
+          {data.status === "degraded"
+            ? "The embedded feed is retrying the live Webset and will switch back when results are available."
+            : "This Webset hasn&rsquo;t surfaced matching public-web evidence yet. It re-runs on a schedule, so the feed will fill in over time."}
         </p>
       </div>
     );
@@ -164,9 +170,9 @@ function FeedBody({ data }: { data: StudioWebsetItemsResponse }) {
 
   return (
     <>
-      {data.status === "preview" && (
+      {(data.status === "preview" || data.status === "degraded") && (
         <p className="mb-4 rounded-sm border border-line bg-canvas px-3 py-2 text-[12.5px] leading-relaxed text-ink-muted">
-          {data.prospectWebset
+          {data.status === "degraded"
             ? "Live Webset temporarily unavailable · showing source-pack preview evidence while the embedded feed retries."
             : "Preview only · no live Webset has been provisioned. This page is showing internal source-pack evidence because live Webset provisioning was not authorized or preview mode was selected."}
         </p>
@@ -238,7 +244,7 @@ function ResultCard({ result }: { result: ProspectWebsetResult }) {
 function StatusDot({ status }: { status: StudioWebsetItemsResponse["status"] }) {
   const tone = cn(
     "inline-flex h-1.5 w-1.5 rounded-full",
-    status === "live" ? "bg-high" : status === "loading" ? "bg-medium" : "bg-ink-subtle",
+    status === "live" ? "bg-high" : status === "loading" || status === "degraded" ? "bg-medium" : "bg-ink-subtle",
   );
   return <span className={tone} aria-hidden />;
 }

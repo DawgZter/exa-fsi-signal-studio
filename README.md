@@ -41,7 +41,7 @@ Current production store:
 - 104 cached account-level Exa Answer suggestions
 - Daily Webset sync via Vercel Cron
 
-The committed seed snapshot is intentionally lighter than production: it includes the signal, account, review, and studio records needed to inspect the app without credentials, while account-level suggestions can be regenerated with Exa Answer or shown through heuristic/row-review fallback.
+The committed seed snapshot is intentionally lighter than production: it includes normalized signal, account, review, and studio records needed to inspect the app without credentials, while raw Webset payloads and research candidate dumps stay out of the public repository. Account-level suggestions can be regenerated with Exa Answer or shown through heuristic/row-review fallback.
 
 The production cron route syncs new Webset results into the app and refreshes a bounded number of stale or missing account suggestions each day. Signals are synced first; Exa Answer review/suggestions run after sync rather than acting as a hard visibility gate.
 

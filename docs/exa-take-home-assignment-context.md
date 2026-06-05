@@ -118,12 +118,11 @@ Prior Deepline/Exa/Crustdata exploration generated:
 - Estimated 25-35 rep-actionable accounts and about 15-20 strict true positives from the first corpus.
 - Additional signal test across lanes 2-5 and 10 produced 477 filtered candidate rows.
 
-Useful source files:
+Useful source files and notes:
 
-- data/research/fsi-agent-signal-candidates.csv
 - docs/fsi-agent-signal-exploration-memo.md
-- data/research/fsi-signal-2-5-10-test-candidates.csv
 - docs/fsi-signal-2-5-10-test-memo.md
+- Raw research candidate CSVs are intentionally omitted from the public repository.
 
 ## Exa Docs Notes
 
