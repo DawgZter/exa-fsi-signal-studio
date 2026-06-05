@@ -1,0 +1,721 @@
+[
+  {
+    "id": "studio_699e774cf1b6",
+    "slug": "sygnum-bank-ag-aMNdbTLp",
+    "accountName": "Sygnum Bank AG",
+    "companyDomain": "sygnum.com",
+    "prospectLogoUrl": "https://www.google.com/s2/favicons?domain=sygnum.com&sz=128",
+    "selectedSignalIds": [
+      "sig_1bf971fffce33cca"
+    ],
+    "studioName": "Sygnum Bank AG Signal Studio",
+    "selectedWorkflow": "On-Chain Transactions",
+    "generatedBrief": "Sygnum Bank AG is showing live, source-backed evidence related to on-chain transactions. This studio turns those signals into a cited external-intelligence monitor an AE can share in outbound to show how Exa would ground the account's real AI-agent workflow.",
+    "monitorQuery": "Sygnum AI@Sygnum agent-driven workflows human-in-the-loop live on-chain transactions press release OR announcement",
+    "monitorCriteria": [
+      "Find new Sygnum announcements about AI agents enabling on-chain execution in regulated environments",
+      "Extract concrete workflow details (e.g., client consent/signing, custody model, smart-contract review/risk checks)",
+      "Capture partnerships, regulator/approval mentions, or operational rollouts related to agent-driven transaction systems"
+    ],
+    "prospectWebset": {
+      "websetId": "webset_01ktbsdgdpga26db0nsgm1nf6a",
+      "searchId": "wsearch_01ktbsdgphw5zky53t50qj5cy8",
+      "monitorId": "monitor_01ktbsdhmzpkqmkgqg8sx9k8sk",
+      "dashboardUrl": "https://websets.exa.ai/websets/webset_01ktbsdgdpga26db0nsgm1nf6a",
+      "createdAt": "2026-06-05T11:41:38.854Z"
+    },
+    "options": [
+      {
+        "id": "answer-suggested-webset",
+        "title": "Sygnum & regulated AI-agent on-chain execution (human-in-the-loop) monitoring",
+        "workflow": "On-Chain Transactions",
+        "audience": "Banking / digital-asset ops leaders evaluating AI agents for compliant on-chain transaction workflows",
+        "monitorQuery": "Sygnum AI@Sygnum agent-driven workflows human-in-the-loop live on-chain transactions press release OR announcement",
+        "monitorCriteria": [
+          "Find new Sygnum announcements about AI agents enabling on-chain execution in regulated environments",
+          "Extract concrete workflow details (e.g., client consent/signing, custody model, smart-contract review/risk checks)",
+          "Capture partnerships, regulator/approval mentions, or operational rollouts related to agent-driven transaction systems"
+        ],
+        "valueProposition": "Set up monitoring for Sygnum and peer updates showing how regulated institutions deploy AI agents for on-chain transaction execution with strong governance and human-in-the-loop controls—useful for outreach on compliant agentic workflows."
+      },
+      {
+        "id": "auditability-pack",
+        "title": "Auditability And Source Pack",
+        "workflow": "On-Chain Transactions",
+        "audience": "Model-risk / compliance owner",
+        "monitorQuery": "Sygnum Bank AG AI agent governance auditability source provenance On-Chain Transactions",
+        "monitorCriteria": [
+          "Sources must discuss controls, governance, auditability, compliance, or source provenance.",
+          "Sources must be official, trusted trade press, regulator-adjacent, or named vendor/customer evidence.",
+          "Results must be usable in a human-reviewed evidence pack."
+        ],
+        "valueProposition": "Shows how Exa can provide cited public-web evidence for regulated AI-agent review and monitoring."
+      },
+      {
+        "id": "competitive-agent-watch",
+        "title": "Competitive Agent Adoption Watch",
+        "workflow": "On-Chain Transactions",
+        "audience": "Innovation / strategy lead",
+        "monitorQuery": "Sygnum Bank AG competitors financial services AI agents On-Chain Transactions announcements hiring launches",
+        "monitorCriteria": [
+          "Sources must name the account, a peer, or an FSI-infrastructure vendor.",
+          "Sources must describe AI-agent launches, hiring, governance, or partner activity.",
+          "Results must include citations and dated source context."
+        ],
+        "valueProposition": "Turns official ai agent pilot signals into a live watchlist for the buyer's exact market context."
+      }
+    ],
+    "sourcePack": [
+      {
+        "signalId": "sig_1bf971fffce33cca",
+        "title": "Sygnum Bank Deploys AI Agent for Autonomous Digital Asset Transactions",
+        "url": "https://www.sygnum.com/news/sygnum-completes-first-live-ai-agent-driven-digital-asset-transactions-by-a-regulated-swiss-bank",
+        "sourceDomain": "sygnum.com",
+        "sourceDate": "2026-05-18",
+        "confidence": "high",
+        "evidenceSummary": "Sygnum Bank AG publicly piloted an AI agent to execute live on-chain digital asset transactions, marking an official AI-agent pilot by a regulated Swiss bank."
+      }
+    ],
+    "createdAt": "2026-06-05T11:41:38.854Z",
+    "updatedAt": "2026-06-05T11:41:38.854Z",
+    "createdBy": "Exa AE",
+    "repNote": "Use this Webset to monitor regulated digital-asset AI-agent activity with cited public sources."
+  },
+  {
+    "id": "studio_108e336838c9",
+    "slug": "sygnum-bank-ag-d-C-MsFm",
+    "accountName": "Sygnum Bank AG",
+    "companyDomain": "sygnum.com",
+    "prospectLogoUrl": "https://www.google.com/s2/favicons?domain=sygnum.com&sz=128",
+    "selectedSignalIds": [
+      "sig_1bf971fffce33cca"
+    ],
+    "studioName": "Sygnum Bank AG Signal Studio",
+    "selectedWorkflow": "On-Chain Transactions",
+    "generatedBrief": "Sygnum Bank AG is showing live, source-backed evidence related to on-chain transactions. This studio turns those signals into a cited external-intelligence monitor an AE can share in outbound to show how Exa would ground the account's real AI-agent workflow.",
+    "monitorQuery": "Sygnum Bank AG On-Chain Transactions AI agent external sources regulatory updates competitors product changes",
+    "monitorCriteria": [
+      "Sources must mention Sygnum Bank AG or sygnum.com.",
+      "Sources must relate to the selected financial-services workflow.",
+      "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+    ],
+    "prospectWebset": {
+      "websetId": "webset_01ktbs60xfh0tx5mf493bvwjww",
+      "searchId": "wsearch_01ktbs616mh0v7jctf50q3rzan",
+      "monitorId": "monitor_01ktbs62dg8ajq4tp875cbc902",
+      "dashboardUrl": "https://websets.exa.ai/websets/webset_01ktbs60xfh0tx5mf493bvwjww",
+      "createdAt": "2026-06-05T11:37:34.284Z"
+    },
+    "options": [
+      {
+        "id": "grounding-monitor",
+        "title": "On-Chain Transactions Grounding Monitor",
+        "workflow": "On-Chain Transactions",
+        "audience": "AI platform lead / business workflow owner",
+        "monitorQuery": "Sygnum Bank AG On-Chain Transactions AI agent external sources regulatory updates competitors product changes",
+        "monitorCriteria": [
+          "Sources must mention Sygnum Bank AG or sygnum.com.",
+          "Sources must relate to the selected financial-services workflow.",
+          "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+        ],
+        "valueProposition": "Keeps Sygnum Bank AG's on-chain transactions agents grounded in fresh, cited external intelligence."
+      },
+      {
+        "id": "auditability-pack",
+        "title": "Auditability And Source Pack",
+        "workflow": "On-Chain Transactions",
+        "audience": "Model-risk / compliance owner",
+        "monitorQuery": "Sygnum Bank AG AI agent governance auditability source provenance On-Chain Transactions",
+        "monitorCriteria": [
+          "Sources must discuss controls, governance, auditability, compliance, or source provenance.",
+          "Sources must be official, trusted trade press, regulator-adjacent, or named vendor/customer evidence.",
+          "Results must be usable in a human-reviewed evidence pack."
+        ],
+        "valueProposition": "Shows how Exa can provide cited public-web evidence for regulated AI-agent review and monitoring."
+      },
+      {
+        "id": "competitive-agent-watch",
+        "title": "Competitive Agent Adoption Watch",
+        "workflow": "On-Chain Transactions",
+        "audience": "Innovation / strategy lead",
+        "monitorQuery": "Sygnum Bank AG competitors financial services AI agents On-Chain Transactions announcements hiring launches",
+        "monitorCriteria": [
+          "Sources must name the account, a peer, or an FSI-infrastructure vendor.",
+          "Sources must describe AI-agent launches, hiring, governance, or partner activity.",
+          "Results must include citations and dated source context."
+        ],
+        "valueProposition": "Turns official ai agent pilot signals into a live watchlist for the buyer's exact market context."
+      }
+    ],
+    "sourcePack": [
+      {
+        "signalId": "sig_1bf971fffce33cca",
+        "title": "Sygnum Bank Deploys AI Agent for Autonomous Digital Asset Transactions",
+        "url": "https://www.sygnum.com/news/sygnum-completes-first-live-ai-agent-driven-digital-asset-transactions-by-a-regulated-swiss-bank",
+        "sourceDomain": "sygnum.com",
+        "sourceDate": "2026-05-18",
+        "confidence": "high",
+        "evidenceSummary": "Sygnum Bank AG publicly piloted an AI agent to execute live on-chain digital asset transactions, marking an official AI-agent pilot by a regulated Swiss bank."
+      }
+    ],
+    "createdAt": "2026-06-05T11:37:34.284Z",
+    "updatedAt": "2026-06-05T11:37:34.284Z",
+    "createdBy": "Exa AE",
+    "repNote": "Use this Webset to keep Sygnum's agentic transaction workflow grounded in fresh public evidence."
+  },
+  {
+    "id": "studio_98f9170b0462",
+    "slug": "citi-Ol9oAdk2",
+    "accountName": "Citi",
+    "companyDomain": "citigroup.com",
+    "prospectLogoUrl": "https://www.google.com/s2/favicons?domain=citigroup.com&sz=128",
+    "selectedSignalIds": [
+      "sig_1bec1c391af10d59",
+      "sig_bf1b302070fa99b4",
+      "sig_731f6d24ec1b2e54",
+      "sig_cac0bb70eedd71c9",
+      "sig_c1008f3483489071",
+      "sig_ab90a28942ec3095",
+      "sig_e6a3c01012f76bed",
+      "sig_cce9de80f45c7f19"
+    ],
+    "studioName": "Citi Signal Studio",
+    "selectedWorkflow": "Financial Guidance",
+    "generatedBrief": "Citi is showing live, source-backed evidence related to financial guidance. This studio turns those signals into a cited external-intelligence monitor an AE can share in outbound to show how Exa would ground the account's real AI-agent workflow.",
+    "monitorQuery": "Citi Financial Guidance AI agent external sources regulatory updates competitors product changes",
+    "monitorCriteria": [
+      "Sources must mention Citi or citigroup.com.",
+      "Sources must relate to the selected financial-services workflow.",
+      "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+    ],
+    "options": [
+      {
+        "id": "grounding-monitor",
+        "title": "Financial Guidance Grounding Monitor",
+        "workflow": "Financial Guidance",
+        "audience": "AI platform lead / business workflow owner",
+        "monitorQuery": "Citi Financial Guidance AI agent external sources regulatory updates competitors product changes",
+        "monitorCriteria": [
+          "Sources must mention Citi or citigroup.com.",
+          "Sources must relate to the selected financial-services workflow.",
+          "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+        ],
+        "valueProposition": "Keeps Citi's financial guidance agents grounded in fresh, cited external intelligence."
+      },
+      {
+        "id": "auditability-pack",
+        "title": "Auditability And Source Pack",
+        "workflow": "Financial Guidance",
+        "audience": "Model-risk / compliance owner",
+        "monitorQuery": "Citi AI agent governance auditability source provenance Financial Guidance",
+        "monitorCriteria": [
+          "Sources must discuss controls, governance, auditability, compliance, or source provenance.",
+          "Sources must be official, trusted trade press, regulator-adjacent, or named vendor/customer evidence.",
+          "Results must be usable in a human-reviewed evidence pack."
+        ],
+        "valueProposition": "Shows how Exa can provide cited public-web evidence for regulated AI-agent review and monitoring."
+      },
+      {
+        "id": "competitive-agent-watch",
+        "title": "Competitive Agent Adoption Watch",
+        "workflow": "Financial Guidance",
+        "audience": "Innovation / strategy lead",
+        "monitorQuery": "Citi competitors financial services AI agents Financial Guidance announcements hiring launches",
+        "monitorCriteria": [
+          "Sources must name the account, a peer, or an FSI-infrastructure vendor.",
+          "Sources must describe AI-agent launches, hiring, governance, or partner activity.",
+          "Results must include citations and dated source context."
+        ],
+        "valueProposition": "Turns official agent launch, ai hiring, official genai agentic investment publication, ai agent role signals into a live watchlist for the buyer's exact market context."
+      }
+    ],
+    "sourcePack": [
+      {
+        "signalId": "sig_1bec1c391af10d59",
+        "title": "Citi Wealth Unveils “Citi Sky” – An AI-Powered Member of the Citi Wealth Team, Built Using Google Cloud and Google DeepMind Technologies",
+        "url": "https://www.citigroup.com/global/news/press-release/2026/citi-wealth-unveils-citi-sky-ai-powered-member-google-cloud-deepmind-technologies",
+        "sourceDomain": "citigroup.com",
+        "sourceDate": "2026-04-22",
+        "confidence": "high",
+        "evidenceSummary": "Citi Sky is Citi Wealth’s official AI-powered agent unveiled at Google Cloud Next 2026, built with Google Cloud and Google DeepMind technologies to deliver real-time wealth insights and advisor-enabled assistance."
+      },
+      {
+        "signalId": "sig_bf1b302070fa99b4",
+        "title": "Agentic AI Engineer - Vice President | Citi Careers",
+        "url": "https://jobs.citi.com/job/tampa/agentic-ai-engineer-vice-president/287/92572658384",
+        "sourceDomain": "jobs.citi.com",
+        "sourceDate": "2026-03-09",
+        "confidence": "high",
+        "evidenceSummary": "Citi Careers' Agentic AI Engineer—Vice President posting constitutes a public AI hiring signal within the financial services industry."
+      },
+      {
+        "signalId": "sig_731f6d24ec1b2e54",
+        "title": "Lead Agentic AI Engineer – VP (Mississauga) | Citi Careers",
+        "url": "https://jobs.citi.com/job/mississauga/lead-agentic-ai-engineer-vp-mississauga/287/95890780496",
+        "sourceDomain": "jobs.citi.com",
+        "sourceDate": "2026-06-02",
+        "confidence": "high",
+        "evidenceSummary": "Official Citi Careers posting for Lead Agentic AI Engineer – VP (Mississauga), signaling Citi’s public FSI AI-agent initiative focused on agentic AI, LLMs, and RAG within banking."
+      },
+      {
+        "signalId": "sig_cac0bb70eedd71c9",
+        "title": "AI in Investment Management",
+        "url": "https://www.citigroup.com/rcs/citigpa/storage/public/AI_in_Investment_Management.pdf",
+        "sourceDomain": "citigroup.com",
+        "sourceDate": "2025-10-01",
+        "confidence": "high",
+        "evidenceSummary": "This Citi report on AI in Investment Management is a public FSI AI-agent signal because it explicitly discusses GenAI and agentic AI enabling autonomous planning, execution, and adaptation of investment-management workflows and is published as an official Citigroup publication."
+      },
+      {
+        "signalId": "sig_c1008f3483489071",
+        "title": "Senior GenAI Specialist - Finance at Citi",
+        "url": "https://jobs.citi.com/job/mississauga/senior-genai-specialist-finance/287/83624038928",
+        "sourceDomain": "jobs.citi.com",
+        "confidence": "high",
+        "evidenceSummary": "Citi's official Senior GenAI Specialist – Finance posting publicly signals an AI-agent capability within a financial services workflow by detailing GenAI solutions, Agentic AI concepts, and RAG pipelines used for financial applications."
+      },
+      {
+        "signalId": "sig_ab90a28942ec3095",
+        "title": "Senior AI Software Engineer at Citi",
+        "url": "https://jobs.citi.com/job/mississauga/senior-ai-software-engineer/287/89667246080",
+        "sourceDomain": "jobs.citi.com",
+        "sourceDate": "2025-12-18",
+        "confidence": "high",
+        "evidenceSummary": "The Citi posting explicitly describes designing, developing, and deploying AI agents and agent-based systems, making it a public FSI AI-agent signal."
+      },
+      {
+        "signalId": "sig_e6a3c01012f76bed",
+        "title": "GenAI Engineer - GenAI Applications in Finance",
+        "url": "https://jobs.citi.com/job/mississauga/genai-engineer-genai-applications-in-finance/287/83623983856",
+        "sourceDomain": "jobs.citi.com",
+        "confidence": "high",
+        "evidenceSummary": "Citi's GenAI Engineer - GenAI Applications in Finance posting on Citi's official careers site demonstrates active GenAI-enabled workflows in a major financial institution, signaling a public FSI AI-agent signal."
+      },
+      {
+        "signalId": "sig_cce9de80f45c7f19",
+        "title": "Junior Generative AI Application Developer (NY, US) – Career Connections | Villanova University",
+        "url": "https://connections.villanova.edu/jobs/citi-junior-generative-ai-application-developer-ny-us",
+        "sourceDomain": "connections.villanova.edu",
+        "sourceDate": "2026-05-12",
+        "confidence": "high",
+        "evidenceSummary": "Public FSI AI-hiring signal: Citi’s publicly posted Junior Generative AI Application Developer role on Villanova Career Connections demonstrates an AI-driven hiring activity within a major financial services institution."
+      }
+    ],
+    "createdAt": "2026-06-05T11:30:51.883Z",
+    "updatedAt": "2026-06-05T11:30:51.883Z",
+    "createdBy": "Exa AE"
+  },
+  {
+    "id": "studio_a3409224cbbe",
+    "slug": "aviva-plc-lo4aisOE",
+    "accountName": "Aviva plc",
+    "companyDomain": "aviva.com",
+    "prospectLogoUrl": "https://www.google.com/s2/favicons?domain=aviva.com&sz=128",
+    "selectedSignalIds": [
+      "sig_4197d9b4c7993a83"
+    ],
+    "studioName": "Aviva plc Signal Studio",
+    "selectedWorkflow": "Quotes",
+    "generatedBrief": "Aviva plc is showing live, source-backed evidence related to quotes. This studio turns those signals into a cited external-intelligence monitor an AE can share in outbound to show how Exa would ground the account's real AI-agent workflow.",
+    "monitorQuery": "Aviva plc Quotes AI agent external sources regulatory updates competitors product changes",
+    "monitorCriteria": [
+      "Sources must mention Aviva plc or aviva.com.",
+      "Sources must relate to the selected financial-services workflow.",
+      "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+    ],
+    "options": [
+      {
+        "id": "grounding-monitor",
+        "title": "Quotes Grounding Monitor",
+        "workflow": "Quotes",
+        "audience": "AI platform lead / business workflow owner",
+        "monitorQuery": "Aviva plc Quotes AI agent external sources regulatory updates competitors product changes",
+        "monitorCriteria": [
+          "Sources must mention Aviva plc or aviva.com.",
+          "Sources must relate to the selected financial-services workflow.",
+          "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+        ],
+        "valueProposition": "Keeps Aviva plc's quotes agents grounded in fresh, cited external intelligence."
+      },
+      {
+        "id": "auditability-pack",
+        "title": "Auditability And Source Pack",
+        "workflow": "Quotes",
+        "audience": "Model-risk / compliance owner",
+        "monitorQuery": "Aviva plc AI agent governance auditability source provenance Quotes",
+        "monitorCriteria": [
+          "Sources must discuss controls, governance, auditability, compliance, or source provenance.",
+          "Sources must be official, trusted trade press, regulator-adjacent, or named vendor/customer evidence.",
+          "Results must be usable in a human-reviewed evidence pack."
+        ],
+        "valueProposition": "Shows how Exa can provide cited public-web evidence for regulated AI-agent review and monitoring."
+      },
+      {
+        "id": "competitive-agent-watch",
+        "title": "Competitive Agent Adoption Watch",
+        "workflow": "Quotes",
+        "audience": "Innovation / strategy lead",
+        "monitorQuery": "Aviva plc competitors financial services AI agents Quotes announcements hiring launches",
+        "monitorCriteria": [
+          "Sources must name the account, a peer, or an FSI-infrastructure vendor.",
+          "Sources must describe AI-agent launches, hiring, governance, or partner activity.",
+          "Results must include citations and dated source context."
+        ],
+        "valueProposition": "Turns official agent launch signals into a live watchlist for the buyer's exact market context."
+      }
+    ],
+    "sourcePack": [
+      {
+        "signalId": "sig_4197d9b4c7993a83",
+        "title": "Aviva bets on ChatGPT becoming major sales channel - Insurance Post",
+        "url": "https://www.postonline.co.uk/news/7960326/aviva-bets-on-chatgpt-becoming-major-sales-channel",
+        "sourceDomain": "postonline.co.uk",
+        "sourceDate": "2026-05-26",
+        "confidence": "high",
+        "evidenceSummary": "Aviva's launch of a ChatGPT-powered insurance app represents an AI-enabled sales channel in a financial-services workflow, constituting a public FSI AI-agent signal."
+      }
+    ],
+    "createdAt": "2026-06-05T11:22:19.656Z",
+    "updatedAt": "2026-06-05T11:22:19.656Z",
+    "createdBy": "Exa AE",
+    "repNote": "Mortgage guidance grounding"
+  },
+  {
+    "id": "studio_d9a65f4fb30c",
+    "slug": "citi-2XnSmQch",
+    "accountName": "Citi",
+    "companyDomain": "citigroup.com",
+    "prospectLogoUrl": "https://www.google.com/s2/favicons?domain=citigroup.com&sz=128",
+    "selectedSignalIds": [
+      "sig_1bec1c391af10d59",
+      "sig_bf1b302070fa99b4",
+      "sig_731f6d24ec1b2e54",
+      "sig_cac0bb70eedd71c9",
+      "sig_c1008f3483489071"
+    ],
+    "studioName": "Citi Signal Studio",
+    "selectedWorkflow": "Financial Guidance",
+    "generatedBrief": "Citi is showing live, source-backed evidence related to financial guidance. This studio turns those signals into a cited external-intelligence monitor an AE can share in outbound to show how Exa would ground the account's real AI-agent workflow.",
+    "monitorQuery": "Citi Financial Guidance AI agent external sources regulatory updates competitors product changes",
+    "monitorCriteria": [
+      "Sources must mention Citi or citigroup.com.",
+      "Sources must relate to the selected financial-services workflow.",
+      "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+    ],
+    "options": [
+      {
+        "id": "grounding-monitor",
+        "title": "Financial Guidance Grounding Monitor",
+        "workflow": "Financial Guidance",
+        "audience": "AI platform lead / business workflow owner",
+        "monitorQuery": "Citi Financial Guidance AI agent external sources regulatory updates competitors product changes",
+        "monitorCriteria": [
+          "Sources must mention Citi or citigroup.com.",
+          "Sources must relate to the selected financial-services workflow.",
+          "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+        ],
+        "valueProposition": "Keeps Citi's financial guidance agents grounded in fresh, cited external intelligence."
+      },
+      {
+        "id": "auditability-pack",
+        "title": "Auditability And Source Pack",
+        "workflow": "Financial Guidance",
+        "audience": "Model-risk / compliance owner",
+        "monitorQuery": "Citi AI agent governance auditability source provenance Financial Guidance",
+        "monitorCriteria": [
+          "Sources must discuss controls, governance, auditability, compliance, or source provenance.",
+          "Sources must be official, trusted trade press, regulator-adjacent, or named vendor/customer evidence.",
+          "Results must be usable in a human-reviewed evidence pack."
+        ],
+        "valueProposition": "Shows how Exa can provide cited public-web evidence for regulated AI-agent review and monitoring."
+      },
+      {
+        "id": "competitive-agent-watch",
+        "title": "Competitive Agent Adoption Watch",
+        "workflow": "Financial Guidance",
+        "audience": "Innovation / strategy lead",
+        "monitorQuery": "Citi competitors financial services AI agents Financial Guidance announcements hiring launches",
+        "monitorCriteria": [
+          "Sources must name the account, a peer, or an FSI-infrastructure vendor.",
+          "Sources must describe AI-agent launches, hiring, governance, or partner activity.",
+          "Results must include citations and dated source context."
+        ],
+        "valueProposition": "Turns official agent launch, ai hiring, official genai agentic investment publication signals into a live watchlist for the buyer's exact market context."
+      }
+    ],
+    "sourcePack": [
+      {
+        "signalId": "sig_1bec1c391af10d59",
+        "title": "Citi Wealth Unveils “Citi Sky” – An AI-Powered Member of the Citi Wealth Team, Built Using Google Cloud and Google DeepMind Technologies",
+        "url": "https://www.citigroup.com/global/news/press-release/2026/citi-wealth-unveils-citi-sky-ai-powered-member-google-cloud-deepmind-technologies",
+        "sourceDomain": "citigroup.com",
+        "sourceDate": "2026-04-22",
+        "confidence": "high",
+        "evidenceSummary": "Citi Sky is Citi Wealth’s official AI-powered agent unveiled at Google Cloud Next 2026, built with Google Cloud and Google DeepMind technologies to deliver real-time wealth insights and advisor-enabled assistance."
+      },
+      {
+        "signalId": "sig_bf1b302070fa99b4",
+        "title": "Agentic AI Engineer - Vice President | Citi Careers",
+        "url": "https://jobs.citi.com/job/tampa/agentic-ai-engineer-vice-president/287/92572658384",
+        "sourceDomain": "jobs.citi.com",
+        "sourceDate": "2026-03-09",
+        "confidence": "high",
+        "evidenceSummary": "Citi Careers' Agentic AI Engineer—Vice President posting constitutes a public AI hiring signal within the financial services industry."
+      },
+      {
+        "signalId": "sig_731f6d24ec1b2e54",
+        "title": "Lead Agentic AI Engineer – VP (Mississauga) | Citi Careers",
+        "url": "https://jobs.citi.com/job/mississauga/lead-agentic-ai-engineer-vp-mississauga/287/95890780496",
+        "sourceDomain": "jobs.citi.com",
+        "sourceDate": "2026-06-02",
+        "confidence": "high",
+        "evidenceSummary": "Official Citi Careers posting for Lead Agentic AI Engineer – VP (Mississauga), signaling Citi’s public FSI AI-agent initiative focused on agentic AI, LLMs, and RAG within banking."
+      },
+      {
+        "signalId": "sig_cac0bb70eedd71c9",
+        "title": "AI in Investment Management",
+        "url": "https://www.citigroup.com/rcs/citigpa/storage/public/AI_in_Investment_Management.pdf",
+        "sourceDomain": "citigroup.com",
+        "sourceDate": "2025-10-01",
+        "confidence": "high",
+        "evidenceSummary": "This Citi report on AI in Investment Management is a public FSI AI-agent signal because it explicitly discusses GenAI and agentic AI enabling autonomous planning, execution, and adaptation of investment-management workflows and is published as an official Citigroup publication."
+      },
+      {
+        "signalId": "sig_c1008f3483489071",
+        "title": "Senior GenAI Specialist - Finance at Citi",
+        "url": "https://jobs.citi.com/job/mississauga/senior-genai-specialist-finance/287/83624038928",
+        "sourceDomain": "jobs.citi.com",
+        "confidence": "high",
+        "evidenceSummary": "Citi's official Senior GenAI Specialist – Finance posting publicly signals an AI-agent capability within a financial services workflow by detailing GenAI solutions, Agentic AI concepts, and RAG pipelines used for financial applications."
+      }
+    ],
+    "createdAt": "2026-06-05T11:13:38.039Z",
+    "updatedAt": "2026-06-05T11:13:38.039Z",
+    "createdBy": "Exa AE"
+  },
+  {
+    "id": "studio_fdd6f044d03a",
+    "slug": "citi-_3eixbXR",
+    "accountName": "Citi",
+    "companyDomain": "citigroup.com",
+    "prospectLogoUrl": "https://www.google.com/s2/favicons?domain=citigroup.com&sz=128",
+    "selectedSignalIds": [
+      "sig_1bec1c391af10d59",
+      "sig_bf1b302070fa99b4",
+      "sig_731f6d24ec1b2e54",
+      "sig_cac0bb70eedd71c9",
+      "sig_c1008f3483489071",
+      "sig_ab90a28942ec3095",
+      "sig_e6a3c01012f76bed",
+      "sig_cce9de80f45c7f19"
+    ],
+    "studioName": "Citi Signal Studio",
+    "selectedWorkflow": "Financial Guidance",
+    "generatedBrief": "Citi is showing live, source-backed evidence related to financial guidance. This studio turns those signals into a cited external-intelligence monitor an AE can share in outbound to show how Exa would ground the account's real AI-agent workflow.",
+    "monitorQuery": "Citi Financial Guidance AI agent external sources regulatory updates competitors product changes",
+    "monitorCriteria": [
+      "Sources must mention Citi or citigroup.com.",
+      "Sources must relate to the selected financial-services workflow.",
+      "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+    ],
+    "options": [
+      {
+        "id": "grounding-monitor",
+        "title": "Financial Guidance Grounding Monitor",
+        "workflow": "Financial Guidance",
+        "audience": "AI platform lead / business workflow owner",
+        "monitorQuery": "Citi Financial Guidance AI agent external sources regulatory updates competitors product changes",
+        "monitorCriteria": [
+          "Sources must mention Citi or citigroup.com.",
+          "Sources must relate to the selected financial-services workflow.",
+          "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+        ],
+        "valueProposition": "Keeps Citi's financial guidance agents grounded in fresh, cited external intelligence."
+      },
+      {
+        "id": "auditability-pack",
+        "title": "Auditability And Source Pack",
+        "workflow": "Financial Guidance",
+        "audience": "Model-risk / compliance owner",
+        "monitorQuery": "Citi AI agent governance auditability source provenance Financial Guidance",
+        "monitorCriteria": [
+          "Sources must discuss controls, governance, auditability, compliance, or source provenance.",
+          "Sources must be official, trusted trade press, regulator-adjacent, or named vendor/customer evidence.",
+          "Results must be usable in a human-reviewed evidence pack."
+        ],
+        "valueProposition": "Shows how Exa can provide cited public-web evidence for regulated AI-agent review and monitoring."
+      },
+      {
+        "id": "competitive-agent-watch",
+        "title": "Competitive Agent Adoption Watch",
+        "workflow": "Financial Guidance",
+        "audience": "Innovation / strategy lead",
+        "monitorQuery": "Citi competitors financial services AI agents Financial Guidance announcements hiring launches",
+        "monitorCriteria": [
+          "Sources must name the account, a peer, or an FSI-infrastructure vendor.",
+          "Sources must describe AI-agent launches, hiring, governance, or partner activity.",
+          "Results must include citations and dated source context."
+        ],
+        "valueProposition": "Turns official_agent_launch, ai_hiring, official_genai_agentic_investment_publication, ai_agent_role signals into a live watchlist for the buyer's exact market context."
+      }
+    ],
+    "sourcePack": [
+      {
+        "signalId": "sig_1bec1c391af10d59",
+        "title": "Citi Wealth Unveils “Citi Sky” – An AI-Powered Member of the Citi Wealth Team, Built Using Google Cloud and Google DeepMind Technologies",
+        "url": "https://www.citigroup.com/global/news/press-release/2026/citi-wealth-unveils-citi-sky-ai-powered-member-google-cloud-deepmind-technologies",
+        "sourceDomain": "citigroup.com",
+        "sourceDate": "2026-04-22",
+        "confidence": "high",
+        "evidenceSummary": "Citi Sky is Citi Wealth’s official AI-powered agent unveiled at Google Cloud Next 2026, built with Google Cloud and Google DeepMind technologies to deliver real-time wealth insights and advisor-enabled assistance."
+      },
+      {
+        "signalId": "sig_bf1b302070fa99b4",
+        "title": "Agentic AI Engineer - Vice President | Citi Careers",
+        "url": "https://jobs.citi.com/job/tampa/agentic-ai-engineer-vice-president/287/92572658384",
+        "sourceDomain": "jobs.citi.com",
+        "sourceDate": "2026-03-09",
+        "confidence": "high",
+        "evidenceSummary": "Citi Careers' Agentic AI Engineer—Vice President posting constitutes a public AI hiring signal within the financial services industry."
+      },
+      {
+        "signalId": "sig_731f6d24ec1b2e54",
+        "title": "Lead Agentic AI Engineer – VP (Mississauga) | Citi Careers",
+        "url": "https://jobs.citi.com/job/mississauga/lead-agentic-ai-engineer-vp-mississauga/287/95890780496",
+        "sourceDomain": "jobs.citi.com",
+        "sourceDate": "2026-06-02",
+        "confidence": "high",
+        "evidenceSummary": "Official Citi Careers posting for Lead Agentic AI Engineer – VP (Mississauga), signaling Citi’s public FSI AI-agent initiative focused on agentic AI, LLMs, and RAG within banking."
+      },
+      {
+        "signalId": "sig_cac0bb70eedd71c9",
+        "title": "AI in Investment Management",
+        "url": "https://www.citigroup.com/rcs/citigpa/storage/public/AI_in_Investment_Management.pdf",
+        "sourceDomain": "citigroup.com",
+        "sourceDate": "2025-10-01",
+        "confidence": "high",
+        "evidenceSummary": "This Citi report on AI in Investment Management is a public FSI AI-agent signal because it explicitly discusses GenAI and agentic AI enabling autonomous planning, execution, and adaptation of investment-management workflows and is published as an official Citigroup publication."
+      },
+      {
+        "signalId": "sig_c1008f3483489071",
+        "title": "Senior GenAI Specialist - Finance at Citi",
+        "url": "https://jobs.citi.com/job/mississauga/senior-genai-specialist-finance/287/83624038928",
+        "sourceDomain": "jobs.citi.com",
+        "confidence": "high",
+        "evidenceSummary": "Citi's official Senior GenAI Specialist – Finance posting publicly signals an AI-agent capability within a financial services workflow by detailing GenAI solutions, Agentic AI concepts, and RAG pipelines used for financial applications."
+      },
+      {
+        "signalId": "sig_ab90a28942ec3095",
+        "title": "Senior AI Software Engineer at Citi",
+        "url": "https://jobs.citi.com/job/mississauga/senior-ai-software-engineer/287/89667246080",
+        "sourceDomain": "jobs.citi.com",
+        "sourceDate": "2025-12-18",
+        "confidence": "high",
+        "evidenceSummary": "The Citi posting explicitly describes designing, developing, and deploying AI agents and agent-based systems, making it a public FSI AI-agent signal."
+      },
+      {
+        "signalId": "sig_e6a3c01012f76bed",
+        "title": "GenAI Engineer - GenAI Applications in Finance",
+        "url": "https://jobs.citi.com/job/mississauga/genai-engineer-genai-applications-in-finance/287/83623983856",
+        "sourceDomain": "jobs.citi.com",
+        "confidence": "high",
+        "evidenceSummary": "Citi's GenAI Engineer - GenAI Applications in Finance posting on Citi's official careers site demonstrates active GenAI-enabled workflows in a major financial institution, signaling a public FSI AI-agent signal."
+      },
+      {
+        "signalId": "sig_cce9de80f45c7f19",
+        "title": "Junior Generative AI Application Developer (NY, US) – Career Connections | Villanova University",
+        "url": "https://connections.villanova.edu/jobs/citi-junior-generative-ai-application-developer-ny-us",
+        "sourceDomain": "connections.villanova.edu",
+        "sourceDate": "2026-05-12",
+        "confidence": "high",
+        "evidenceSummary": "Public FSI AI-hiring signal: Citi’s publicly posted Junior Generative AI Application Developer role on Villanova Career Connections demonstrates an AI-driven hiring activity within a major financial services institution."
+      }
+    ],
+    "createdAt": "2026-06-05T11:11:46.117Z",
+    "updatedAt": "2026-06-05T11:11:46.117Z",
+    "createdBy": "Exa AE",
+    "repNote": "Grounding Citi's GenAI finance agents in fresh, cited regulatory + market context"
+  },
+  {
+    "id": "studio_38d6fd526cdd",
+    "slug": "wells-fargo-I1Wxn0te",
+    "accountName": "Wells Fargo",
+    "companyDomain": "wellsfargo.com",
+    "prospectLogoUrl": "https://www.google.com/s2/favicons?domain=wellsfargo.com&sz=128",
+    "selectedSignalIds": [
+      "sig_edf54d147f4c08d1",
+      "sig_d6a9de4ac3af9bf6"
+    ],
+    "studioName": "Wells Fargo Signal Studio",
+    "selectedWorkflow": "Regulated agent workflow grounding",
+    "generatedBrief": "Wells Fargo is showing live, source-backed evidence related to regulated agent workflow grounding. This studio turns those signals into a cited external-intelligence monitor an AE can share in outbound to show how Exa would ground the account's real AI-agent workflow.",
+    "monitorQuery": "Wells Fargo Regulated agent workflow grounding AI agent external sources regulatory updates competitors product changes",
+    "monitorCriteria": [
+      "Sources must mention Wells Fargo or wellsfargo.com.",
+      "Sources must relate to the selected financial-services workflow.",
+      "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+    ],
+    "options": [
+      {
+        "id": "grounding-monitor",
+        "title": "Regulated agent workflow grounding Grounding Monitor",
+        "workflow": "Regulated agent workflow grounding",
+        "audience": "AI platform lead / business workflow owner",
+        "monitorQuery": "Wells Fargo Regulated agent workflow grounding AI agent external sources regulatory updates competitors product changes",
+        "monitorCriteria": [
+          "Sources must mention Wells Fargo or wellsfargo.com.",
+          "Sources must relate to the selected financial-services workflow.",
+          "Sources must include current external web evidence that could ground, update, or challenge an AI agent."
+        ],
+        "valueProposition": "Keeps Wells Fargo's regulated agent workflow grounding agents grounded in fresh, cited external intelligence."
+      },
+      {
+        "id": "auditability-pack",
+        "title": "Auditability And Source Pack",
+        "workflow": "Regulated agent workflow grounding",
+        "audience": "Model-risk / compliance owner",
+        "monitorQuery": "Wells Fargo AI agent governance auditability source provenance Regulated agent workflow grounding",
+        "monitorCriteria": [
+          "Sources must discuss controls, governance, auditability, compliance, or source provenance.",
+          "Sources must be official, trusted trade press, regulator-adjacent, or named vendor/customer evidence.",
+          "Results must be usable in a human-reviewed evidence pack."
+        ],
+        "valueProposition": "Shows how Exa can provide cited public-web evidence for regulated AI-agent review and monitoring."
+      },
+      {
+        "id": "competitive-agent-watch",
+        "title": "Competitive Agent Adoption Watch",
+        "workflow": "Regulated agent workflow grounding",
+        "audience": "Innovation / strategy lead",
+        "monitorQuery": "Wells Fargo competitors financial services AI agents Regulated agent workflow grounding announcements hiring launches",
+        "monitorCriteria": [
+          "Sources must name the account, a peer, or an FSI-infrastructure vendor.",
+          "Sources must describe AI-agent launches, hiring, governance, or partner activity.",
+          "Results must include citations and dated source context."
+        ],
+        "valueProposition": "Turns customer_ai_assistant, vendor_partner_announcement signals into a live watchlist for the buyer's exact market context."
+      }
+    ],
+    "sourcePack": [
+      {
+        "signalId": "sig_edf54d147f4c08d1",
+        "url": "https://venturebeat.com/business/wells-fargos-ai-assistant-just-crossed-245-million-interactions-with-zero-humans-in-the-loop-and-zero-pii-to-the-llm",
+        "sourceDomain": "venturebeat.com",
+        "sourceDate": "2025-04-08",
+        "confidence": "high",
+        "evidenceSummary": "Source-backed signal found by Exa Websets."
+      },
+      {
+        "signalId": "sig_d6a9de4ac3af9bf6",
+        "url": "https://cloud.google.com/blog/topics/financial-services/wells-fargo-agentic-ai-agentspace-empowering-workers",
+        "sourceDomain": "cloud.google.com",
+        "sourceDate": "2025-08-05",
+        "confidence": "high",
+        "evidenceSummary": "Source-backed signal found by Exa Websets."
+      }
+    ],
+    "createdAt": "2026-06-05T10:25:44.218Z",
+    "updatedAt": "2026-06-05T10:25:44.218Z",
+    "createdBy": "Exa AE"
+  }
+]

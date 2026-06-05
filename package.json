@@ -1,0 +1,49 @@
+{
+  "name": "exa-fsi-signal-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "tsx scripts/setup.ts",
+    "dev": "next dev",
+    "build": "next build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "backend:sync": "tsx scripts/sync-webset.ts",
+    "backend:inspect": "tsx scripts/inspect-store.ts",
+    "backend:create-searches": "tsx scripts/create-webset-searches.ts",
+    "backend:create-studio": "tsx scripts/create-studio.ts",
+    "backend:review-signals": "tsx scripts/review-signals-exa-answer.ts",
+    "backend:review-signals-exa": "tsx scripts/review-signals-exa-answer.ts",
+    "backend:review-accounts-exa": "tsx scripts/review-account-suggestions-exa-answer.ts",
+    "backend:prune-webset": "tsx scripts/prune-webset-items.ts",
+    "backend:expand-webset": "tsx scripts/expand-webset-searches.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@vercel/blob": "^2.4.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
+    "lucide-react": "^1.17.0",
+    "nanoid": "^5.1.11",
+    "next": "^16.2.7",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^25.9.1",
+    "@types/react": "19.2.16",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
+  }
+}

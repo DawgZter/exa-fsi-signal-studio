@@ -1,0 +1,2036 @@
+[
+  {
+    "id": "acct_d606fe86f081",
+    "accountName": "Citi",
+    "companyDomain": "citigroup.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-06-05T10:53:17.042Z",
+    "latestSignalId": "sig_e6a3c01012f76bed",
+    "allSignalTypesSeen": [
+      "ai_agent_role",
+      "ai_hiring",
+      "official_agent_launch",
+      "official_genai_agentic_investment_publication"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants",
+      "job_posts_hiring",
+      "official_ai_agent_launches"
+    ],
+    "signalCount": 8,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-05T10:53:17.042Z"
+  },
+  {
+    "id": "acct_4ae59bb633e4",
+    "accountName": "Kakao Bank",
+    "companyDomain": "kakaobank.com",
+    "accountSegment": "Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-06-05T10:52:56.977Z",
+    "latestSignalId": "sig_0525106f9f127f12",
+    "allSignalTypesSeen": [
+      "official_ai_native_bank_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "medium",
+    "lastSeenAt": "2026-06-05T10:52:56.977Z"
+  },
+  {
+    "id": "acct_0ce5245a8820",
+    "accountName": "Nordea Bank Abp",
+    "companyDomain": "nordea.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-06-05T10:52:48.205Z",
+    "latestSignalId": "sig_bfb522c43dfa77ff",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants",
+      "job_posts_hiring"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-05T10:52:48.205Z"
+  },
+  {
+    "id": "acct_7326e7efd128",
+    "accountName": "Scotiabank",
+    "companyDomain": "scotiabank.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-06-05T10:52:34.223Z",
+    "latestSignalId": "sig_16fd69d28c132776",
+    "allSignalTypesSeen": [
+      "ai_hiring",
+      "bank_ai_hiring",
+      "official_bank_ai_platform_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 4,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-05T10:52:34.223Z"
+  },
+  {
+    "id": "acct_536c0e85911f",
+    "accountName": "Customers Bank",
+    "companyDomain": "customersbank.com",
+    "accountSegment": "Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-06-05T10:52:11.036Z",
+    "latestSignalId": "sig_4912a22e21143226",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 3,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-05T10:52:11.036Z"
+  },
+  {
+    "id": "acct_ae65ebdc66b2",
+    "accountName": "Bank of America",
+    "companyDomain": "bankofamerica.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-06-05T10:51:57.491Z",
+    "latestSignalId": "sig_7e0fbf77ffc17913",
+    "allSignalTypesSeen": [
+      "ai_hiring",
+      "employee_facing_ai_assistant",
+      "governance_model_risk"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 4,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-05T10:51:57.491Z"
+  },
+  {
+    "id": "acct_95e2043aa52f",
+    "accountName": "BNP Paribas",
+    "companyDomain": "bnpparibas.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Insurance",
+    "latestSignalDate": "2026-06-05T10:24:02.147Z",
+    "latestSignalId": "sig_40612cdf968a1d43",
+    "allSignalTypesSeen": [
+      "agentic_ai_onboarding",
+      "ai_hiring",
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "conference_speaker",
+      "customer_ai_assistants",
+      "job_posts_hiring"
+    ],
+    "signalCount": 6,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-05T10:24:02.147Z"
+  },
+  {
+    "id": "acct_f75e039023c9",
+    "accountName": "Mastercard",
+    "companyDomain": "mastercard.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Payments",
+    "latestSignalDate": "2026-06-05T10:23:57.873Z",
+    "latestSignalId": "sig_6eeecc1214d6370d",
+    "allSignalTypesSeen": [
+      "agentic_ai_hiring",
+      "agentic_ai_payments_infrastructure",
+      "ai_hiring",
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "job_posts_hiring",
+      "unknown"
+    ],
+    "signalCount": 4,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-05T10:23:57.873Z"
+  },
+  {
+    "id": "acct_56651e0b9556",
+    "accountName": "Barclays",
+    "companyDomain": "barclays.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-06-05T10:23:47.065Z",
+    "latestSignalId": "sig_d4717d85ffe45f70",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "job_posts_hiring"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-05T10:23:47.065Z"
+  },
+  {
+    "id": "acct_831aff3da49b",
+    "accountName": "SIX Group",
+    "companyDomain": "six-group.com",
+    "accountSegment": "Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-06-05T10:23:23.281Z",
+    "latestSignalId": "sig_25cc0bb9b9c832d1",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "job_posts_hiring"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-05T10:23:23.281Z"
+  },
+  {
+    "id": "acct_1d5e8c2a202d",
+    "accountName": "Better Mortgage",
+    "companyDomain": "better.com",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "North America",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-06-05T10:23:21.401Z",
+    "latestSignalId": "sig_0f239d4f02426267",
+    "allSignalTypesSeen": [
+      "case_study",
+      "customer_ai_assistant",
+      "finserv_ai_agent_case_study",
+      "official_ai_product_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 4,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-05T10:23:21.401Z"
+  },
+  {
+    "id": "acct_77a807e7bd5f",
+    "accountName": "ThinkMarkets",
+    "companyDomain": "thinkmarkets.com",
+    "accountSegment": "Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-06-05",
+    "latestSignalId": "sig_c61cd61db86883ad",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 5,
+    "highestConfidence": "medium",
+    "lastSeenAt": "2026-06-05"
+  },
+  {
+    "id": "acct_b6de6c62a674",
+    "accountName": "Lloyds Banking Group",
+    "companyDomain": "lloydsbankinggroup.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-06-04",
+    "latestSignalId": "sig_9703e63382fcb91e",
+    "allSignalTypesSeen": [
+      "official_agent_appointment",
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team",
+      "customer_ai_assistants"
+    ],
+    "signalCount": 3,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-04"
+  },
+  {
+    "id": "acct_89d89c2633a5",
+    "accountName": "Pure Retirement",
+    "companyDomain": "pureretirement.co.uk",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "EMEA",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-06-04",
+    "latestSignalId": "sig_8ec5395a9355e454",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-04"
+  },
+  {
+    "id": "acct_f7b948a65550",
+    "accountName": "Interactive Brokers Group, Inc.",
+    "companyDomain": "interactivebrokers.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-06-03",
+    "latestSignalId": "sig_2e8e2c7f0578e9e5",
+    "allSignalTypesSeen": [
+      "agentic_ai_integration",
+      "official_agent_launch",
+      "official_ai_integration_press_release",
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "official_ai_agent_launches",
+      "unknown"
+    ],
+    "signalCount": 4,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-03"
+  },
+  {
+    "id": "acct_ed920e5a551a",
+    "accountName": "Oscilar",
+    "companyDomain": "oscilar.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "Fraud/Risk",
+    "latestSignalDate": "2026-06-03",
+    "latestSignalId": "sig_99347b9dcecc1116",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "official_ai_agent_launches"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-03"
+  },
+  {
+    "id": "acct_9dfafbe3f535",
+    "accountName": "Banco Santander, S.A.",
+    "companyDomain": "santander.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-06-03",
+    "latestSignalId": "sig_de348a52199ee8fd",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "procurement_rfp"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-03"
+  },
+  {
+    "id": "acct_9efec0c57f85",
+    "accountName": "Morgan Stanley",
+    "companyDomain": "morganstanley.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "Global",
+    "fsiSubsector": "Wealth/RIA",
+    "latestSignalDate": "2026-06-03",
+    "latestSignalId": "sig_4f854356b46566fa",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-03"
+  },
+  {
+    "id": "acct_94023fa0e0de",
+    "accountName": "Patronus Partners",
+    "companyDomain": "patronuspartners.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "EMEA",
+    "fsiSubsector": "Wealth/RIA",
+    "latestSignalDate": "2026-06-03",
+    "latestSignalId": "sig_d3206b0a3d5d46c0",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-03"
+  },
+  {
+    "id": "acct_c4684dd3ef28",
+    "accountName": "Travelers",
+    "companyDomain": "travelers.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Insurance",
+    "latestSignalDate": "2026-06-02",
+    "latestSignalId": "sig_61437da75e77c374",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 4,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-02"
+  },
+  {
+    "id": "acct_eae1e531e104",
+    "accountName": "Q2 Holdings, Inc.",
+    "companyDomain": "q2.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-06-02",
+    "latestSignalId": "sig_58d05d0f11956a70",
+    "allSignalTypesSeen": [
+      "official_ai_assistant_launch"
+    ],
+    "signalLanesSeen": [
+      "official_ai_agent_launches"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-02"
+  },
+  {
+    "id": "acct_3c550551b2a8",
+    "accountName": "Claro Advisors",
+    "companyDomain": "claroadvisors.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "Global",
+    "fsiSubsector": "Wealth/RIA",
+    "latestSignalDate": "2026-06-02",
+    "latestSignalId": "sig_d4c6539767a0cdd1",
+    "allSignalTypesSeen": [
+      "vendor_product_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-06-02"
+  },
+  {
+    "id": "acct_1af1aa3efdcd",
+    "accountName": "Allspring Global Investments",
+    "companyDomain": "allspringglobal.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "North America",
+    "fsiSubsector": "Wealth/RIA",
+    "latestSignalDate": "2026-05-30",
+    "latestSignalId": "sig_eb9a01ea275258a3",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "job_posts_hiring"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "low",
+    "lastSeenAt": "2026-05-30"
+  },
+  {
+    "id": "acct_d1d5c934b5e1",
+    "accountName": "nCino",
+    "companyDomain": "ncino.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-29",
+    "latestSignalId": "sig_29cba07500b06222",
+    "allSignalTypesSeen": [
+      "ai_in_banking_delivery"
+    ],
+    "signalLanesSeen": [
+      "conference_speaker"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-29"
+  },
+  {
+    "id": "acct_ea16e6eda394",
+    "accountName": "Erie Insurance",
+    "companyDomain": "erieinsurance.com",
+    "accountSegment": "Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Insurance",
+    "latestSignalDate": "2026-05-29",
+    "latestSignalId": "sig_1168d354a616ddfc",
+    "allSignalTypesSeen": [
+      "agent_facing_ai_copilots"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-29"
+  },
+  {
+    "id": "acct_cd0fe0178827",
+    "accountName": "TD Bank Group",
+    "companyDomain": "td.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-05-28",
+    "latestSignalId": "sig_a6ecdf9c07fa2ddf",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 6,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-28"
+  },
+  {
+    "id": "acct_6e345d658972",
+    "accountName": "Piraeus Bank",
+    "companyDomain": "piraeusbank.gr",
+    "accountSegment": "Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-28",
+    "latestSignalId": "sig_d8d336bec567cc87",
+    "allSignalTypesSeen": [
+      "official_ai_hub_launch",
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-28"
+  },
+  {
+    "id": "acct_be0459cc6876",
+    "accountName": "Foster Denovo",
+    "companyDomain": "fosterdenovo.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "EMEA",
+    "fsiSubsector": "Wealth/RIA",
+    "latestSignalDate": "2026-05-28",
+    "latestSignalId": "sig_72f31a33cc83f09b",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-28"
+  },
+  {
+    "id": "acct_d5ae531eac4c",
+    "accountName": "Duco Technology Limited",
+    "companyDomain": "du.co",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "EMEA",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-05-27",
+    "latestSignalId": "sig_8b8dee7db60b96a1",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "official_ai_agent_launches"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-27"
+  },
+  {
+    "id": "acct_33de9afb9f5d",
+    "accountName": "SBI Life Insurance",
+    "companyDomain": "sbilife.co.in",
+    "accountSegment": "Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Insurance",
+    "latestSignalDate": "2026-05-27",
+    "latestSignalId": "sig_39fd2a950674d1b1",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 3,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-27"
+  },
+  {
+    "id": "acct_d407897d6c4d",
+    "accountName": "Commonwealth Bank of Australia",
+    "companyDomain": "commbank.com.au",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-26",
+    "latestSignalId": "sig_aedb2534e2a5f6db",
+    "allSignalTypesSeen": [
+      "ai_leadership_appointment",
+      "official_ai_agent_launch",
+      "official_ai_banking_assistant_launch"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team",
+      "customer_ai_assistants"
+    ],
+    "signalCount": 4,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-26"
+  },
+  {
+    "id": "acct_bc5ff5343e89",
+    "accountName": "Aviva plc",
+    "companyDomain": "aviva.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Insurance",
+    "latestSignalDate": "2026-05-26",
+    "latestSignalId": "sig_4197d9b4c7993a83",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-26"
+  },
+  {
+    "id": "acct_a41dee30d709",
+    "accountName": "Aetna",
+    "companyDomain": "cvshealth.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Insurance",
+    "latestSignalDate": "2026-05-26",
+    "latestSignalId": "sig_2568cd9c2bbcd88c",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-26"
+  },
+  {
+    "id": "acct_cce96b3d5139",
+    "accountName": "Alipay",
+    "companyDomain": "alipay.com",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "APAC",
+    "fsiSubsector": "Payments",
+    "latestSignalDate": "2026-05-26",
+    "latestSignalId": "sig_093e4e55bbe261c9",
+    "allSignalTypesSeen": [
+      "vendor_ai_payment_infrastructure_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-26"
+  },
+  {
+    "id": "acct_d5b4e37ccc67",
+    "accountName": "Allied Irish Banks, p.l.c.",
+    "companyDomain": "aib.ie",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-25",
+    "latestSignalId": "sig_ba7cbf74c3530f47",
+    "allSignalTypesSeen": [
+      "ai_governance_model_risk",
+      "official_enterprise_ai_deployment"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team",
+      "customer_ai_assistants"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-25"
+  },
+  {
+    "id": "acct_67c92e33a205",
+    "accountName": "Hana Securities",
+    "companyDomain": "hanaw.com",
+    "accountSegment": "Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-05-22",
+    "latestSignalId": "sig_acbf604156d4d9c7",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "medium",
+    "lastSeenAt": "2026-05-22"
+  },
+  {
+    "id": "acct_2700f792c426",
+    "accountName": "Trust Bank Singapore Limited",
+    "companyDomain": "trustbank.sg",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-21",
+    "latestSignalId": "sig_470f15819367f017",
+    "allSignalTypesSeen": [
+      "banking_ai_chatbot"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-21"
+  },
+  {
+    "id": "acct_480345b1fc06",
+    "accountName": "Woori Bank",
+    "companyDomain": "wooribank.com",
+    "accountSegment": "Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-21",
+    "latestSignalId": "sig_c91fc66e06fc01fe",
+    "allSignalTypesSeen": [
+      "official_agent_launch",
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-21"
+  },
+  {
+    "id": "acct_67e647247ad7",
+    "accountName": "SBI Thai Online Securities Co., Ltd.",
+    "companyDomain": "sbito.co.th",
+    "accountSegment": "Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-05-20",
+    "latestSignalId": "sig_751a520b9d28837b",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-20"
+  },
+  {
+    "id": "acct_f9ff5fc2fac7",
+    "accountName": "Sygnum Bank AG",
+    "companyDomain": "sygnum.com",
+    "accountSegment": "Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-18",
+    "latestSignalId": "sig_1bf971fffce33cca",
+    "allSignalTypesSeen": [
+      "official_ai_agent_pilot"
+    ],
+    "signalLanesSeen": [
+      "official_ai_agent_launches"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-18"
+  },
+  {
+    "id": "acct_189d8382b162",
+    "accountName": "Mizuho Bank, Ltd.",
+    "companyDomain": "mizuhobank.co.jp",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-18",
+    "latestSignalId": "sig_51653ddf440c0516",
+    "allSignalTypesSeen": [
+      "official_agent_launch",
+      "official_bank_ai_assistant_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 3,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-18"
+  },
+  {
+    "id": "acct_391c9e7feb66",
+    "accountName": "Zurich Insurance",
+    "companyDomain": "zurich.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Insurance",
+    "latestSignalDate": "2026-05-18",
+    "latestSignalId": "sig_e21ad078140301ac",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-18"
+  },
+  {
+    "id": "acct_ad180ac0db7a",
+    "accountName": "MEXC",
+    "companyDomain": "mexc.com",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "APAC",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-05-18",
+    "latestSignalId": "sig_c3629a85b3c455e6",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "unknown"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-18"
+  },
+  {
+    "id": "acct_dd6e43d9659e",
+    "accountName": "AU Small Finance Bank",
+    "companyDomain": "au.bank.in",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "APAC",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-05-16",
+    "latestSignalId": "sig_527a892b597e31f1",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "medium",
+    "lastSeenAt": "2026-05-16"
+  },
+  {
+    "id": "acct_ab28a13f76d6",
+    "accountName": "Fiserv, Inc.",
+    "companyDomain": "fiserv.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "Payments",
+    "latestSignalDate": "2026-05-14",
+    "latestSignalId": "sig_353d71c9468d9775",
+    "allSignalTypesSeen": [
+      "official_agent_launch",
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants",
+      "official_ai_agent_launches"
+    ],
+    "signalCount": 4,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-14"
+  },
+  {
+    "id": "acct_cb3f2e0de0e7",
+    "accountName": "Newrez",
+    "companyDomain": "newrez.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "North America",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-05-14",
+    "latestSignalId": "sig_4e73077c9b8aaa80",
+    "allSignalTypesSeen": [
+      "customer_ai_assistant",
+      "lender_ai_assistant_launch",
+      "lender_ai_mortgage_assistant_launch",
+      "official_agent_launch",
+      "official_lender_ai_assistant_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 5,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-14"
+  },
+  {
+    "id": "acct_d81fd9aae6f4",
+    "accountName": "California State Teachers' Retirement System",
+    "companyDomain": "calstrs.com",
+    "accountSegment": "Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-05-14",
+    "latestSignalId": "sig_6fe9d9bd4ec1e896",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "procurement_rfp"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-14"
+  },
+  {
+    "id": "acct_be2dbfcff43c",
+    "accountName": "United Wholesale Mortgage, LLC",
+    "companyDomain": "uwm.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "North America",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-05-14",
+    "latestSignalId": "sig_27c1272002307cdc",
+    "allSignalTypesSeen": [
+      "in_house_ai_underwriting_servicing"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-14"
+  },
+  {
+    "id": "acct_a0019f27a075",
+    "accountName": "Broadridge Financial Solutions, Inc.",
+    "companyDomain": "broadridge.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-05-11",
+    "latestSignalId": "sig_41c25246fdfc67cd",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-11"
+  },
+  {
+    "id": "acct_429d21e01300",
+    "accountName": "Capital One",
+    "companyDomain": "capitalone.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-09",
+    "latestSignalId": "sig_ebf320b850614171",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "job_posts_hiring"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-09"
+  },
+  {
+    "id": "acct_91f6fefa86e6",
+    "accountName": "Kraken",
+    "companyDomain": "kraken.com",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-09",
+    "latestSignalId": "sig_f3fd2ab810efb1ee",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "job_posts_hiring"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "medium",
+    "lastSeenAt": "2026-05-09"
+  },
+  {
+    "id": "acct_64324004b8b4",
+    "accountName": "Citi",
+    "companyDomain": "kelley.iu.edu",
+    "accountSegment": "Enterprise",
+    "territory": "Global",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-08",
+    "latestSignalId": "sig_a84a4937661db7fd",
+    "allSignalTypesSeen": [
+      "ai_hiring_financial_services"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-08"
+  },
+  {
+    "id": "acct_5be0e8809372",
+    "accountName": "Julius Baer",
+    "companyDomain": "juliusbaer.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "EMEA",
+    "fsiSubsector": "Wealth/RIA",
+    "latestSignalDate": "2026-05-08",
+    "latestSignalId": "sig_4d5e92ded95535b7",
+    "allSignalTypesSeen": [
+      "proprietary_ai_assistant_on_premise"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-08"
+  },
+  {
+    "id": "acct_1a100c83c797",
+    "accountName": "Mitsubishi UFJ Financial Group, Inc.",
+    "companyDomain": "mufg.jp",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Payments",
+    "latestSignalDate": "2026-05-08",
+    "latestSignalId": "sig_ba9fc7419142608e",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-08"
+  },
+  {
+    "id": "acct_7c24c5f3248d",
+    "accountName": "Fidelity National Information Services, Inc.",
+    "companyDomain": "fisglobal.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "AML/KYC",
+    "latestSignalDate": "2026-05-07",
+    "latestSignalId": "sig_eef0f265db0ada16",
+    "allSignalTypesSeen": [
+      "aml_agentic_ai",
+      "official_agent_launch",
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team",
+      "customer_ai_assistants",
+      "official_ai_agent_launches",
+      "unknown"
+    ],
+    "signalCount": 8,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-07"
+  },
+  {
+    "id": "acct_d4bc508bf223",
+    "accountName": "Mambu",
+    "companyDomain": "mambu.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "EMEA",
+    "fsiSubsector": "Core Banking",
+    "latestSignalDate": "2026-05-07",
+    "latestSignalId": "sig_6944c0557fc8479c",
+    "allSignalTypesSeen": [
+      "vendor_limited_release"
+    ],
+    "signalLanesSeen": [
+      "official_ai_agent_launches"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-07"
+  },
+  {
+    "id": "acct_258c3e44b214",
+    "accountName": "Jammu & Kashmir Bank Limited",
+    "companyDomain": "jkb.bank.in",
+    "accountSegment": "Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-06",
+    "latestSignalId": "sig_d120707ce17c5e24",
+    "allSignalTypesSeen": [
+      "public_bank_ai_tender"
+    ],
+    "signalLanesSeen": [
+      "procurement_rfp"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "low",
+    "lastSeenAt": "2026-05-06"
+  },
+  {
+    "id": "acct_28fb138d7540",
+    "accountName": "Visa Inc.",
+    "companyDomain": "visa.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Payments",
+    "latestSignalDate": "2026-05-06",
+    "latestSignalId": "sig_763e64939a3a1419",
+    "allSignalTypesSeen": [
+      "official_agent_launch",
+      "official_agentic_ready_apac_launch",
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants",
+      "unknown"
+    ],
+    "signalCount": 4,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-06"
+  },
+  {
+    "id": "acct_157aac098cc7",
+    "accountName": "La Banque Postale",
+    "companyDomain": "labanquepostale.fr",
+    "accountSegment": "Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-05-06",
+    "latestSignalId": "sig_e0174c63b629600a",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-05-06"
+  },
+  {
+    "id": "acct_0355179d7caa",
+    "accountName": "NICE Actimize",
+    "companyDomain": "nice.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "EMEA",
+    "fsiSubsector": "Fraud/Risk",
+    "latestSignalDate": "2026-04-30",
+    "latestSignalId": "sig_f1cd5e05fba56f4b",
+    "allSignalTypesSeen": [
+      "agentic_ai_webinar_series"
+    ],
+    "signalLanesSeen": [
+      "webinars_whitepapers"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-30"
+  },
+  {
+    "id": "acct_916657032457",
+    "accountName": "National Australia Bank",
+    "companyDomain": "nab.com.au",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-04-29",
+    "latestSignalId": "sig_2cdb0d94a490a7ba",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-29"
+  },
+  {
+    "id": "acct_834f62202012",
+    "accountName": "ING Bank N.V.",
+    "companyDomain": "ing.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-04-28",
+    "latestSignalId": "sig_262faba1c7cdaecd",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-28"
+  },
+  {
+    "id": "acct_5d223205b348",
+    "accountName": "Generali Investments",
+    "companyDomain": "generali-investments.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "Global",
+    "fsiSubsector": "Wealth/RIA",
+    "latestSignalDate": "2026-04-27",
+    "latestSignalId": "sig_ab5e02e5542d3404",
+    "allSignalTypesSeen": [
+      "ai_leadership_appointment"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-27"
+  },
+  {
+    "id": "acct_2a1364c5c5e2",
+    "accountName": "CaixaBank",
+    "companyDomain": "caixabank.com",
+    "accountSegment": "Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-04-25",
+    "latestSignalId": "sig_a2ccedf3f63464a9",
+    "allSignalTypesSeen": [
+      "official_ai_agent_rollout"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-25"
+  },
+  {
+    "id": "acct_e74fc6fad347",
+    "accountName": "London Stock Exchange Group",
+    "companyDomain": "lseg.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-04-23",
+    "latestSignalId": "sig_1f6e8d8346e8eaa3",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "job_posts_hiring"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-23"
+  },
+  {
+    "id": "acct_8c218a1fb7ce",
+    "accountName": "MetaComp Pte. Ltd.",
+    "companyDomain": "metacomp.ai",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "APAC",
+    "fsiSubsector": "Regtech",
+    "latestSignalDate": "2026-04-21",
+    "latestSignalId": "sig_9704d79c47a69232",
+    "allSignalTypesSeen": [
+      "ai_agent_governance_framework_launch",
+      "vendor_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants",
+      "governance_model_risk"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-21"
+  },
+  {
+    "id": "acct_8284e8b8c6f9",
+    "accountName": "CIMB Niaga",
+    "companyDomain": "cimbniaga.co.id",
+    "accountSegment": "Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-04-20",
+    "latestSignalId": "sig_4638e44208a5b646",
+    "allSignalTypesSeen": [
+      "official_agent_launch",
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 3,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-20"
+  },
+  {
+    "id": "acct_d3fbe839da39",
+    "accountName": "GF Securities Co., Ltd.",
+    "companyDomain": "gf.com.cn",
+    "accountSegment": "Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-04-18",
+    "latestSignalId": "sig_33d842a32405a114",
+    "allSignalTypesSeen": [
+      "supplier_solicitation_announcement"
+    ],
+    "signalLanesSeen": [
+      "procurement_rfp"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "low",
+    "lastSeenAt": "2026-04-18"
+  },
+  {
+    "id": "acct_e8f502533955",
+    "accountName": "OCBC Bank",
+    "companyDomain": "ocbc.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-04-16",
+    "latestSignalId": "sig_c02db609ce2c6fab",
+    "allSignalTypesSeen": [
+      "official_ai_workflow_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "medium",
+    "lastSeenAt": "2026-04-16"
+  },
+  {
+    "id": "acct_30f95d48d104",
+    "accountName": "DataVisor",
+    "companyDomain": "datavisor.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "Fraud/Risk",
+    "latestSignalDate": "2026-04-14",
+    "latestSignalId": "sig_f9e35331b5bd467a",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-14"
+  },
+  {
+    "id": "acct_7b389270661a",
+    "accountName": "SymphonyAI",
+    "companyDomain": "symphonyai.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "Regtech",
+    "latestSignalDate": "2026-04-13",
+    "latestSignalId": "sig_e2839ebdd57d1b67",
+    "allSignalTypesSeen": [
+      "agentic_ai_banking_compliance"
+    ],
+    "signalLanesSeen": [
+      "conference_speaker"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-13"
+  },
+  {
+    "id": "acct_5c7d443547bd",
+    "accountName": "Revolut",
+    "companyDomain": "revolut.com",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-04-11",
+    "latestSignalId": "sig_77f77767694a4ae3",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-11"
+  },
+  {
+    "id": "acct_1346a7f1b765",
+    "accountName": "VALR",
+    "companyDomain": "valr.com",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "EMEA",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-04-10",
+    "latestSignalId": "sig_9bcfd8d0b16ac8f8",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "unknown"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-10"
+  },
+  {
+    "id": "acct_1ffe987f283d",
+    "accountName": "UBS Group AG",
+    "companyDomain": "ubs.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-04-08",
+    "latestSignalId": "sig_896c92fa81f368b5",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-08"
+  },
+  {
+    "id": "acct_e6f550b26619",
+    "accountName": "Five Sigma",
+    "companyDomain": "fivesigmalabs.com",
+    "accountSegment": "Enterprise",
+    "territory": "Global",
+    "fsiSubsector": "Insurance",
+    "latestSignalDate": "2026-04-06",
+    "latestSignalId": "sig_bca4d1d76c0345e5",
+    "allSignalTypesSeen": [
+      "ai_claims_assistant"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-04-06"
+  },
+  {
+    "id": "acct_7f73285c5e9f",
+    "accountName": "Lemonade, Inc.",
+    "companyDomain": "lemonade.com",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "North America",
+    "fsiSubsector": "Insurance",
+    "latestSignalDate": "2026-04-05",
+    "latestSignalId": "sig_aafb9a10537bf2ec",
+    "allSignalTypesSeen": [
+      "vendor_deployment_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "medium",
+    "lastSeenAt": "2026-04-05"
+  },
+  {
+    "id": "acct_2498f3be77c9",
+    "accountName": "Public",
+    "companyDomain": "public.com",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "North America",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-03-31",
+    "latestSignalId": "sig_343edbb76a9510c0",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "unknown"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-03-31"
+  },
+  {
+    "id": "acct_5cf966e9fc00",
+    "accountName": "Carson Group",
+    "companyDomain": "carsongroup.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "North America",
+    "fsiSubsector": "Wealth/RIA",
+    "latestSignalDate": "2026-03-30",
+    "latestSignalId": "sig_593f81154e3bcd91",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-03-30"
+  },
+  {
+    "id": "acct_dc574cd7bf8d",
+    "accountName": "MOZAIQ",
+    "companyDomain": "mozaiq.ai",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-03-27",
+    "latestSignalId": "sig_194d04a19259cbba",
+    "allSignalTypesSeen": [
+      "ai_mortgage_platform",
+      "ai_powered_mortgage_assistant"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-03-27"
+  },
+  {
+    "id": "acct_cc210d1c6daf",
+    "accountName": "HSBC Holdings plc",
+    "companyDomain": "hsbc.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-03-23",
+    "latestSignalId": "sig_9383deec6c59a24a",
+    "allSignalTypesSeen": [
+      "official_ai_officer_appointment"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-03-23"
+  },
+  {
+    "id": "acct_823d801c7f81",
+    "accountName": "Freedom Mortgage",
+    "companyDomain": "freedommortgage.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "North America",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-03-19",
+    "latestSignalId": "sig_56c17ca4f2015e8f",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-03-19"
+  },
+  {
+    "id": "acct_381407ec5e71",
+    "accountName": "Intercontinental Exchange",
+    "companyDomain": "ice.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2026-03-18",
+    "latestSignalId": "sig_ca93d60c1f095099",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-03-18"
+  },
+  {
+    "id": "acct_8b8199ca4587",
+    "accountName": "DBS Bank",
+    "companyDomain": "dbs.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-03-09",
+    "latestSignalId": "sig_e7246d7ee07ab37f",
+    "allSignalTypesSeen": [
+      "agentic_ai_governance_banking_workflows"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-03-09"
+  },
+  {
+    "id": "acct_7b2386007a5e",
+    "accountName": "Caisse des Dépôts Group",
+    "companyDomain": "caissedesdepots.fr",
+    "accountSegment": "Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-03-06",
+    "latestSignalId": "sig_735569b7bbe6fef6",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "procurement_rfp"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-03-06"
+  },
+  {
+    "id": "acct_6b06f7fac3a3",
+    "accountName": "Better.com",
+    "companyDomain": "wedbush.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "North America",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-02-25",
+    "latestSignalId": "sig_9aad4e27d3e08141",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-02-25"
+  },
+  {
+    "id": "acct_0c166ac8e9f8",
+    "accountName": "NatWest Group plc",
+    "companyDomain": "natwestgroup.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-02-17",
+    "latestSignalId": "sig_ba9070ade543d261",
+    "allSignalTypesSeen": [
+      "customer_ai_assistant"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "medium",
+    "lastSeenAt": "2026-02-17"
+  },
+  {
+    "id": "acct_bd6974afca7b",
+    "accountName": "Sardine",
+    "companyDomain": "sardine.ai",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "AML/KYC",
+    "latestSignalDate": "2026-02-16",
+    "latestSignalId": "sig_8f7e5b4b67f077ee",
+    "allSignalTypesSeen": [
+      "vendor_ai_audit_readiness_banking"
+    ],
+    "signalLanesSeen": [
+      "governance_model_risk"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-02-16"
+  },
+  {
+    "id": "acct_8b65c08a90d0",
+    "accountName": "U.S. Bank",
+    "companyDomain": "usbank.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-02-06",
+    "latestSignalId": "sig_26d3148df740c899",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-02-06"
+  },
+  {
+    "id": "acct_81cc05f06f8a",
+    "accountName": "Raymond James Financial, Inc.",
+    "companyDomain": "raymondjames.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Wealth/RIA",
+    "latestSignalDate": "2026-01-27",
+    "latestSignalId": "sig_1a6348fa8bd01c84",
+    "allSignalTypesSeen": [
+      "official_agent_launch",
+      "official_ai_search_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 4,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-01-27"
+  },
+  {
+    "id": "acct_e8c0b1595a2f",
+    "accountName": "Wells Fargo & Company",
+    "companyDomain": "wellsfargo.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-01-26",
+    "latestSignalId": "sig_7e51a2740373cbd9",
+    "allSignalTypesSeen": [
+      "ai_hiring",
+      "ai_leadership_appointment",
+      "customer_ai_assistant",
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team",
+      "customer_ai_assistants"
+    ],
+    "signalCount": 5,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-01-26"
+  },
+  {
+    "id": "acct_e65c1b9a15ae",
+    "accountName": "The Kadirur Service Co-operative Bank Ltd",
+    "companyDomain": "kadirurbank.com",
+    "accountSegment": "Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2026-01-26",
+    "latestSignalId": "sig_81957fc32190c368",
+    "allSignalTypesSeen": [
+      "customer_ai_assistant"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-01-26"
+  },
+  {
+    "id": "acct_e0b6b923f65e",
+    "accountName": "MortgagX",
+    "companyDomain": "mortgagx.ai",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "Global",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-01-25",
+    "latestSignalId": "sig_d7ebed1aadb687af",
+    "allSignalTypesSeen": [
+      "ai_fraud_detection"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-01-25"
+  },
+  {
+    "id": "acct_31fb0e969bec",
+    "accountName": "NEO Home Loans",
+    "companyDomain": "neohomeloans.com",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "North America",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2026-01-22",
+    "latestSignalId": "sig_11299ff0905b5935",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 2,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-01-22"
+  },
+  {
+    "id": "acct_15ecc410190b",
+    "accountName": "Pismo",
+    "companyDomain": "pismo.io",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "LATAM",
+    "fsiSubsector": "Core Banking",
+    "latestSignalDate": "2026-01-14",
+    "latestSignalId": "sig_b847f4b3acb13f9a",
+    "allSignalTypesSeen": [
+      "public_whitepaper_fsi"
+    ],
+    "signalLanesSeen": [
+      "webinars_whitepapers"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2026-01-14"
+  },
+  {
+    "id": "acct_5802b55143f5",
+    "accountName": "Citizens Financial Group, Inc.",
+    "companyDomain": "citizensbank.com",
+    "accountSegment": "Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2025-12-01",
+    "latestSignalId": "sig_cf83648be1c2a57e",
+    "allSignalTypesSeen": [
+      "customer_ai_assistant"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2025-12-01"
+  },
+  {
+    "id": "acct_ae014b888633",
+    "accountName": "BPCE Group",
+    "companyDomain": "groupebpce.com",
+    "accountSegment": "Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2025-11-19",
+    "latestSignalId": "sig_1a6d04c9f726fc34",
+    "allSignalTypesSeen": [
+      "official_ai_adoption_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2025-11-19"
+  },
+  {
+    "id": "acct_83536f96e612",
+    "accountName": "BNY Mellon",
+    "companyDomain": "bny.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2025-11-12",
+    "latestSignalId": "sig_dab287912335d199",
+    "allSignalTypesSeen": [
+      "ai_supervisor_role"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2025-11-12"
+  },
+  {
+    "id": "acct_7eb157820374",
+    "accountName": "Manulife Wealth & Asset Management",
+    "companyDomain": "manulife.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Wealth/RIA",
+    "latestSignalDate": "2025-09-30",
+    "latestSignalId": "sig_1b8d5e2afa185bb3",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2025-09-30"
+  },
+  {
+    "id": "acct_a9f800e2d908",
+    "accountName": "Ant International",
+    "companyDomain": "ant-intl.com",
+    "accountSegment": "Digital Native / Fintech",
+    "territory": "APAC",
+    "fsiSubsector": "Payments",
+    "latestSignalDate": "2025-06-05",
+    "latestSignalId": "sig_68a4f4f979818b26",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2025-06-05"
+  },
+  {
+    "id": "acct_342d2f84b3ad",
+    "accountName": "Tradeweb Markets Inc.",
+    "companyDomain": "tradeweb.com",
+    "accountSegment": "FSI Infrastructure",
+    "territory": "North America",
+    "fsiSubsector": "Capital Markets Ops",
+    "latestSignalDate": "2025-05-30",
+    "latestSignalId": "sig_a605c4f9774b86a5",
+    "allSignalTypesSeen": [
+      "official_ai_leadership_appointment"
+    ],
+    "signalLanesSeen": [
+      "ai_leadership_team"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2025-05-30"
+  },
+  {
+    "id": "acct_c310de9e4711",
+    "accountName": "Commerzbank Aktiengesellschaft",
+    "companyDomain": "commerzbank.com",
+    "accountSegment": "Strategic Enterprise",
+    "territory": "EMEA",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2025-04-24",
+    "latestSignalId": "sig_c73dc7b089c32375",
+    "allSignalTypesSeen": [
+      "official_agent_launch"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2025-04-24"
+  },
+  {
+    "id": "acct_f385e8faee5b",
+    "accountName": "MPowered Mortgages",
+    "companyDomain": "mpowered.co.uk",
+    "accountSegment": "Commercial / Mid-Market",
+    "territory": "EMEA",
+    "fsiSubsector": "Lending/Mortgage",
+    "latestSignalDate": "2024-11-22",
+    "latestSignalId": "sig_77864909e8590ba0",
+    "allSignalTypesSeen": [
+      "vendor_partner_announcement"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "medium",
+    "lastSeenAt": "2024-11-22"
+  },
+  {
+    "id": "acct_78c270d486ce",
+    "accountName": "SouthState Bank",
+    "companyDomain": "southstatebank.com",
+    "accountSegment": "Enterprise",
+    "territory": "North America",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2023-01-27",
+    "latestSignalId": "sig_5d70ddd4bf7c6a61",
+    "allSignalTypesSeen": [
+      "ai_hiring"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2023-01-27"
+  },
+  {
+    "id": "acct_decc619ec88d",
+    "accountName": "Hang Seng Bank Limited",
+    "companyDomain": "hangseng.com",
+    "accountSegment": "Enterprise",
+    "territory": "APAC",
+    "fsiSubsector": "Banking",
+    "latestSignalDate": "2018-01-09",
+    "latestSignalId": "sig_e475df55a93ec782",
+    "allSignalTypesSeen": [
+      "official_ai_chatbot_launch_retail_banking"
+    ],
+    "signalLanesSeen": [
+      "customer_ai_assistants"
+    ],
+    "signalCount": 1,
+    "highestConfidence": "high",
+    "lastSeenAt": "2018-01-09"
+  }
+]

@@ -1,0 +1,516 @@
+[
+  {
+    "signalId": "sig_194d04a19259cbba",
+    "rowHash": "f36257a86e823d94dc21f683b3ee05e7cf7bb1463b1f2c7a80d53f8221fc4313",
+    "status": "approved",
+    "accuracyScore": 92,
+    "outboundUsefulnessScore": 78,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:47:58.646Z",
+    "rationale": "MOZAIQ (mozaiq.ai) is described on its official site as an “Agentic Mortgage AI” end-to-end mortgage automation platform that uses self-configuring intelligent agents and an AI-powered assistant across the mortgage fulfillment lifecycle (e.g., underwriting assist, closing/funding, post-close review). This directly supports a customer/employee-facing AI assistant adoption signal in the mortgage/lending workflow, and the domain matches the provided official source URL. The provided sourceDate (2026-03-27) is plausible as an on-site content date, but could not be independently verified from Exa results in the provided materials.",
+    "corrected": {
+      "accountName": "MOZAIQ",
+      "companyDomain": "mozaiq.ai",
+      "lane": "customer_ai_assistants",
+      "signalType": "ai_mortgage_platform",
+      "confidence": "high",
+      "sourceQuality": "official",
+      "fsiSubsector": "Lending/Mortgage",
+      "workflow": "Mortgage"
+    },
+    "prospectWebsetSuggestion": {
+      "fitScore": 84,
+      "workflow": "Mortgage",
+      "title": "MOZAIQ—Mortgage AI automation adoption signals",
+      "audience": "Mortgage lenders/servicers evaluating AI for end-to-end loan fulfillment and underwriting assist",
+      "monitorQuery": "site:mozaiq.ai (\"underwriting\" OR \"loan setup\" OR \"closing\" OR \"post-close\" OR \"LOS\" OR \"agentic\" OR \"intelligent agents\") OR site:news OR site:pressrelease.com (\"MOZAIQ\" OR \"mozaiq\") (lender OR mortgage OR underwriting)",
+      "monitorCriteria": [
+        "Evidence of customer/lender deployments or scaling outcomes tied to mortgage workflow stages (underwriting assist, closing/funding, post-close review).",
+        "Product claims showing autonomous/self-configuring agents adapting to regulatory changes in mortgage fulfillment.",
+        "Integration mentions connecting the platform to LOS/orchestration across the lifecycle."
+      ],
+      "valueProposition": "Validate MOZAIQ’s real-world adoption and workflow fit for mortgage lenders evaluating agentic AI for underwriting assist and end-to-end loan fulfillment.",
+      "rationale": "Because the signal is based on MOZAIQ’s agentic mortgage automation and AI assistant described across mortgage lifecycle stages, the most relevant outbound monitoring is for deployments, integrations, and updates tied to underwriting and fulfillment workflow."
+    },
+    "issues": [
+      {
+        "field": "sourceDate",
+        "severity": "low",
+        "message": "Source date may be a content/application date and was not independently corroborated in the provided Exa materials; consider re-checking publication timestamp during monitoring."
+      },
+      {
+        "field": "signalType/lane alignment",
+        "severity": "low",
+        "message": "Row lane is customer_ai_assistants, which fits the described AI-powered assistant use, but signalType “ai_mortgage_platform” is broader than “assistant” wording; acceptable because the evidence frames an AI assistant plus end-to-end platform."
+      }
+    ]
+  },
+  {
+    "signalId": "sig_b8991f6aab7e92a6",
+    "rowHash": "e3b73fed4d873cc101e602b555d6088eb3c65b1506f68f8994b21822149521f0",
+    "status": "approved",
+    "accuracyScore": 92,
+    "outboundUsefulnessScore": 84,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:47:49.857Z",
+    "rationale": "The Nasdaq-posted press release ties FIS (named entity) to the creation of an agentic system specifically called the “Financial Crimes AI Agent” in partnership with Anthropic, with concrete AML investigation workflow outcomes (compressing AML alert/case investigations and improving SAR narrative quality). This directly supports the claimed AI-agent launch signal for the named account. SourceDate appears to be a publication date (“Published May 4, 2026 6:00pm EDT”), not a future expiry/application date. Minor review note: the excerpt indicates “BMO and Amalgamated Bank are in development… general availability planned for H2 2026,” so the strongest claim is development/initial deployment rather than broad production GA, but it still qualifies as a concrete launch/rollout announcement.",
+    "corrected": {},
+    "prospectWebsetSuggestion": {
+      "fitScore": 82,
+      "workflow": "AML/KYC",
+      "title": "Agentic AML investigation adoption & partnership monitoring (FIS/Anthropic-style)",
+      "audience": "Financial-crime compliance leaders (AML, SAR narratives, case management) and AI product owners at regulated banks/fintechs",
+      "monitorQuery": "(FIS OR \"Financial Crimes AI Agent\" OR Anthropic OR frontier model) (AML OR \"anti-money laundering\" OR \"suspicious activity report\" OR SAR) (agent OR \"agentic\" OR autonomous) deployment bank partnership",
+      "monitorCriteria": [
+        "Result must mention an AML/SAR workflow improvement using an AI agent (e.g., case triage, investigation acceleration, reduced false positives).",
+        "Result must name at least one concrete financial institution or deployment status (in development, pilot, rollout, or general availability).",
+        "Result must include an actionable partnership/vendor reference (e.g., Anthropic, FIS, or the vendor building the agent)."
+      ],
+      "valueProposition": "Help compliance and AI product teams quickly identify credible, agentic AML adoption motions (pilot/rollout/partner announcements) and compare workflow claims like time-to-investigate, SAR quality, and false-positive reduction—reducing diligence time for potential vendor selection.",
+      "rationale": "After seeing FIS’s agentic AML announcement, prospects will want evidence of real deployment momentum (pilots, customers, timeline/GA) and specific AML workflow outcomes (case investigation acceleration, SAR narrative quality). A webset seeded around “agentic AML + SAR + partnerships/deployments” will surface comparable, prospect-relevant proof points for outbound discovery and qualification."
+    },
+    "issues": [
+      {
+        "field": "confidenceReason",
+        "severity": "low",
+        "message": "Confidence is reasonable given the press-release evidence, but the excerpt indicates development and planned GA timelines (H2 2026) rather than fully general availability; consider wording as “announcement/early deployment” rather than broad launch."
+      }
+    ]
+  },
+  {
+    "signalId": "sig_ceed85ee564b5f6d",
+    "rowHash": "3d6105104f4dc8ded69582e51d7fd0631ec1c8c033625c920499ece6d73f94d5",
+    "status": "approved",
+    "accuracyScore": 96,
+    "outboundUsefulnessScore": 88,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:47:42.451Z",
+    "rationale": "Source is TD Bank Group’s official newsroom press release (td.mediaroom.com) dated 2026-05-21 announcing the launch of its first “agentic AI model” to automate mortgage and HELOC application pre-adjudication (underwriter-facing workflow: generating application summary memos in minutes). This directly matches the claimed FSI AI-agent launch signal for TD Bank Group in the lending/mortgage workflow.",
+    "corrected": {},
+    "prospectWebsetSuggestion": {
+      "fitScore": 84,
+      "workflow": "Mortgage pre-adjudication automation / underwriting copilot",
+      "title": "TD mortgage agentic AI pre-adjudication: evidence & rollout monitoring",
+      "audience": "TD Bank Group AI/ML, underwriting ops, and real-estate secured lending leaders",
+      "monitorQuery": "site:td.mediaroom.com OR site:newsroom.td.com (agentic OR autonomous OR \"agentic AI\") (mortgage OR HELOC OR \"real estate secured lending\" OR RESL)",
+      "monitorCriteria": [
+        "New TD announcements that expand agentic AI into additional RESL/mortgage steps (beyond pre-adjudication)",
+        "Evidence of integration with underwriting staff workflows (e.g., underwriter summaries, decisioning, application processing time improvements)",
+        "Named stakeholders/business units and dates for implementation, pilots, or adoption metrics"
+      ],
+      "valueProposition": "Keep tabs on TD’s externally announced rollout and workflow expansion of its agentic AI for mortgage/HELOC processing so prospects can time partner conversations around underwriting automation, governance, and model integration.",
+      "rationale": "Because the signal is a TD-initiated agentic AI launch tied to mortgage pre-adjudication, an AE would benefit from ongoing, TD-domain monitoring for subsequent implementation updates, workflow expansion, and operational outcomes."
+    },
+    "issues": []
+  },
+  {
+    "signalId": "sig_353d71c9468d9775",
+    "rowHash": "0b52319eb1b3d5c339b3f70309c8610618120dd9b0b23f8edd1eb151630846a7",
+    "status": "approved",
+    "accuracyScore": 95,
+    "outboundUsefulnessScore": 90,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:47:36.319Z",
+    "rationale": "The named account (Fiserv, Inc. at fiserv.com) is directly supported by an official investor-relations press release announcing its agentic AI product agentOS. The source excerpt states: “today launched agentOS,” describes an “agentic AI operating system” for banking, mentions an agent marketplace, and cites collaborations with OpenAI and Amazon Web Services, plus beta usage by six financial institutions—meeting the requirement for concrete adoption/launch evidence.",
+    "corrected": {},
+    "prospectWebsetSuggestion": {
+      "fitScore": 88,
+      "workflow": "Risk Management",
+      "title": "Monitor Fiserv agentOS agent marketplace for risk/regulatory agent workflows",
+      "audience": "FS risk and compliance leaders evaluating agentic AI deployment platforms and agent marketplaces",
+      "monitorQuery": "Fiserv agentOS marketplace risk management agent regulatory reporting OpenAI AWS",
+      "monitorCriteria": [
+        "Find pages from investors.fiserv.com, fiserv.com, or official partner announcements that mention agentOS and specific agent capabilities",
+        "Capture evidence of new agent releases/launches, beta-to-production transitions, or named financial-institution partners",
+        "Record any described workflows tied to banking risk, compliance, regulatory reporting, model governance, or operational controls"
+      ],
+      "valueProposition": "Gives risk/compliance prospects ongoing, verifiable updates on how agentOS marketplace agents are being launched and applied to risk and regulatory workflows, including partner and deployment milestones.",
+      "rationale": "Because the signal is a concrete agentOS launch with an agent marketplace and external collaborators, a risk-focused webset that tracks agent additions and workflow capability statements is a plausible prospect-facing monitoring angle for outbound follow-up."
+    },
+    "issues": [
+      {
+        "field": "sourceDate",
+        "severity": "low",
+        "message": "The provided sourceDate (2026-05-14) matches the press release date shown in the excerpt; no future-dated mismatch detected."
+      }
+    ]
+  },
+  {
+    "signalId": "sig_353d71c9468d9775",
+    "rowHash": "0b52319eb1b3d5c339b3f70309c8610618120dd9b0b23f8edd1eb151630846a7",
+    "status": "approved",
+    "accuracyScore": 95,
+    "outboundUsefulnessScore": 90,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:47:36.319Z",
+    "rationale": "The named account (Fiserv, Inc. at fiserv.com) is directly supported by an official investor-relations press release announcing its agentic AI product agentOS. The source excerpt states: “today launched agentOS,” describes an “agentic AI operating system” for banking, mentions an agent marketplace, and cites collaborations with OpenAI and Amazon Web Services, plus beta usage by six financial institutions—meeting the requirement for concrete adoption/launch evidence.",
+    "corrected": {},
+    "prospectWebsetSuggestion": {
+      "fitScore": 88,
+      "workflow": "Risk Management",
+      "title": "Monitor Fiserv agentOS agent marketplace for risk/regulatory agent workflows",
+      "audience": "FS risk and compliance leaders evaluating agentic AI deployment platforms and agent marketplaces",
+      "monitorQuery": "Fiserv agentOS marketplace risk management agent regulatory reporting OpenAI AWS",
+      "monitorCriteria": [
+        "Find pages from investors.fiserv.com, fiserv.com, or official partner announcements that mention agentOS and specific agent capabilities",
+        "Capture evidence of new agent releases/launches, beta-to-production transitions, or named financial-institution partners",
+        "Record any described workflows tied to banking risk, compliance, regulatory reporting, model governance, or operational controls"
+      ],
+      "valueProposition": "Gives risk/compliance prospects ongoing, verifiable updates on how agentOS marketplace agents are being launched and applied to risk and regulatory workflows, including partner and deployment milestones.",
+      "rationale": "Because the signal is a concrete agentOS launch with an agent marketplace and external collaborators, a risk-focused webset that tracks agent additions and workflow capability statements is a plausible prospect-facing monitoring angle for outbound follow-up."
+    },
+    "issues": [
+      {
+        "field": "sourceDate",
+        "severity": "low",
+        "message": "The provided sourceDate (2026-05-14) matches the press release date shown in the excerpt; no future-dated mismatch detected."
+      }
+    ]
+  },
+  {
+    "signalId": "sig_0d5b390fd06e89a4",
+    "rowHash": "36a2ae22709cd71f2551d6e2a397fdb8a6840a6d685935f2363a6dc62efc7b5b",
+    "status": "approved",
+    "accuracyScore": 95,
+    "outboundUsefulnessScore": 85,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:47:25.335Z",
+    "rationale": "The source is TD’s official news page and explicitly states “TD Bank Group … announced today the launch of its first agentic AI model” for Real Estate Secured Lending, including automating pre-adjudication (application summary memos for underwriters). This is a concrete AI-agent adoption/launch signal by the named FSI account (TD Bank Group) with a clear workflow (Real Estate Secured Lending / underwriting). Source date (May 21, 2026) matches a publication-style date in the URL/body and is not an obviously future expiry/application date.",
+    "corrected": {},
+    "prospectWebsetSuggestion": {
+      "fitScore": 82,
+      "workflow": "Real Estate Secured Lending pre-adjudication / underwriting assistant (agentic AI)",
+      "title": "TD agentic AI for real-estate secured lending: adoption & expansion signals",
+      "audience": "Mortgage/RESL product leaders, underwriting ops, and AI engineering leaders at Canadian/US banks",
+      "monitorQuery": "TD Bank Group agentic AI model real estate secured lending pre-adjudication application summary memos underwriters",
+      "monitorCriteria": [
+        "New TD announcements describing rollout/expansion of the agentic AI model for RESL or underwriting",
+        "Mentions of measurable impact (cycle time, automation rate, underwriter productivity) tied to the agentic AI workflow",
+        "References to integration into lending/HELOC application processes (e.g., pre-adjudication, underwriting documents)"
+      ],
+      "valueProposition": "Catch follow-on public evidence of how TD operationalized its agentic AI in mortgage/RESL underwriting (scope, integration, and outcomes) so you can tailor outbound around agentic workflow deployment in lending.",
+      "rationale": "The underlying signal is TD’s launch of an agentic AI model specifically for Real Estate Secured Lending (pre-adjudication and underwriter memos). A prospect-facing Webset should monitor TD’s subsequent public updates that show operational adoption and expansion of that workflow."
+    },
+    "issues": [
+      {
+        "field": "lane / signalType nuance",
+        "severity": "low",
+        "message": "The article emphasizes internal underwriter workflow (pre-adjudication summary memos). The lane is marked customer_ai_assistants, which may be slightly broader than the evidence if the agent is primarily employee-facing. Keep as approved but consider lane refinement if you track strictly customer-facing assistants vs internal underwriting agents."
+      }
+    ]
+  },
+  {
+    "signalId": "sig_77864909e8590ba0",
+    "rowHash": "7b4ac07aa210d85e117b303cb8ec9fc408904fa1a8b3df32bacb9f9d0902336c",
+    "status": "approved",
+    "accuracyScore": 86,
+    "outboundUsefulnessScore": 80,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:47:19.319Z",
+    "rationale": "Money Age source describes MPowered Mortgages launching an “AI chatbot” for lender partners, positioned to automate broker criteria questions and reduce reliance on broker support agents, explicitly tying the signal to an AI-enabled mortgage workflow at the named account. The lane customer_ai_assistants and signalType vendor_partner_announcement are consistent with the described partner deployment (chatbot available to lender partners). Account name/domain appear consistent with the article focus.",
+    "corrected": {
+      "confidence": "medium",
+      "sourceQuality": "medium"
+    },
+    "prospectWebsetSuggestion": {
+      "fitScore": 78,
+      "workflow": "Mortgage",
+      "title": "FSI mortgage lenders adopting AI criteria chatbots",
+      "audience": "Mortgage lenders, mortgage technology/product owners, broker operations leads",
+      "monitorQuery": "MPowered Mortgages AI chatbot to lenders MQube MQube MQube AI chatbot mortgage criteria lenders 90% criteria questions",
+      "monitorCriteria": [
+        "New press mentions of AI chatbot deployment for mortgage criteria/broker questions by MPowered Mortgages or comparable UK lenders",
+        "Evidence of partner availability (lender partners/broker-facing) and quantified automation (e.g., % of criteria questions)",
+        "Mentions of rollout details such as sandbox/testing, integration into lender/broker portals, or operational KPIs (service levels, deflection)"
+      ],
+      "valueProposition": "Alert mortgage operations and AI product teams to fresh examples of AI chatbot usage for broker criteria automation, including partner rollout mechanics and measurable impact—useful to benchmark and justify their own AI assistant roadmap.",
+      "rationale": "After confirming MPowered’s AI chatbot deployment, a prospect-facing webset would help AE prospects track similar AI-assisted mortgage criteria automation initiatives, rollout patterns (broker/lender partner access), and results they can cite in proposals."
+    },
+    "issues": [
+      {
+        "field": "sourceDate",
+        "severity": "low",
+        "message": "No evidence in provided excerpt that the date is a future expiry; treat sourceDate as a real publication date, but verify on the page header if needed."
+      }
+    ]
+  },
+  {
+    "signalId": "sig_e475df55a93ec782",
+    "rowHash": "59b94445e81a318a5636d85557cf9cd6ceb3b0629ba1723fbbcfc443cba15a81",
+    "status": "approved",
+    "accuracyScore": 96,
+    "outboundUsefulnessScore": 85,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:47:13.338Z",
+    "rationale": "Asian Banking & Finance reports that Hang Seng Bank launched two AI chatbots, HARO and DORI, for retail banking, with HARO available via hangseng.com and the Hang Seng Personal Banking app starting 10 Jan 2018 and DORI via Facebook Messenger starting 11 Jan 2018. The excerpt also states HARO covers mortgage and can calculate repayment amounts, which matches the row’s mortgage workflow mapping.",
+    "corrected": {
+      "accountName": "Hang Seng Bank Limited",
+      "companyDomain": "hangseng.com",
+      "lane": "customer_ai_assistants",
+      "signalType": "official_ai_chatbot_launch_retail_banking",
+      "confidence": "high",
+      "sourceQuality": "trusted",
+      "fsiSubsector": "Banking",
+      "workflow": "Mortgage"
+    },
+    "issues": []
+  },
+  {
+    "signalId": "sig_caed1c6d3daf0306",
+    "rowHash": "46cda788dbf0da474284f30d65821f9d855a62ac8dc651f52482cd10dcb319c8",
+    "status": "approved",
+    "accuracyScore": 95,
+    "outboundUsefulnessScore": 85,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:47:06.389Z",
+    "rationale": "Source evidence directly announces Wells Fargo & Company’s appointment of Faraz Shafiq as “Head of AI Products and Solutions” (effective Feb 9, 2026) and states he will oversee enterprise-wide “AI-powered products” with generative/agentic AI expertise, which is concrete AI leadership/hiring evidence for the named bank. Account/domain (wellsfargo.com) and lane (AI leadership) fit the appointment content; the only minor risk is that the provided sourceDate is in 2026 (still plausible as a publication date per the page excerpt).",
+    "corrected": {},
+    "prospectWebsetSuggestion": {
+      "fitScore": 88,
+      "workflow": "ai_leadership_team",
+      "title": "Wells Fargo AI organization signals (gen/agentic AI leadership + product roadmap)",
+      "audience": "AE selling AI products/agent platforms and responsible-genAI governance to large banks",
+      "monitorQuery": "Wells Fargo \"Head of AI\" \"AI Products and Solutions\" generative agentic AI roadmap",
+      "monitorCriteria": [
+        "New role/appointment/leadership changes in Wells Fargo AI org (title includes Head/Director/VP of AI, GenAI, or AI Products)",
+        "Evidence of AI-powered products or enterprise AI initiatives (roadmap, programs, platform build/rollout)",
+        "Statements referencing generative or agentic AI (e.g., generative AI, agentic AI, autonomous agents) and target business lines (consumer banking, lending, etc.)"
+      ],
+      "valueProposition": "Alert on follow-on leadership and execution updates from Wells Fargo’s appointed Head of AI Products and Solutions to time outreach on AI product/agent deployments and governance.",
+      "rationale": "The signal is specifically an AI leadership appointment; a prospect-facing webset should track subsequent AI org moves and concrete product/roadmap actions tied to generative/agentic AI."
+    },
+    "issues": [
+      {
+        "field": "confidenceReason",
+        "severity": "low",
+        "message": "The evidence supports AI leadership/hiring strongly, but the provided excerpt is long and does not explicitly mention the domain wellsfargo.com (it is implied by the company name); if you can, ground the company’s official domain from the underlying press release or Wells Fargo investor/press pages."
+      }
+    ]
+  },
+  {
+    "signalId": "sig_caed1c6d3daf0306",
+    "rowHash": "46cda788dbf0da474284f30d65821f9d855a62ac8dc651f52482cd10dcb319c8",
+    "status": "rejected",
+    "accuracyScore": 0,
+    "outboundUsefulnessScore": 0,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:47:06.389Z",
+    "rationale": "No additional rows were provided beyond the single row included in your JSON. Cannot review others.",
+    "corrected": {},
+    "issues": [
+      {
+        "field": "rows",
+        "severity": "medium",
+        "message": "Only one row was provided; if more signals exist, include them in the input JSON under rows."
+      }
+    ]
+  },
+  {
+    "signalId": "sig_1bec1c391af10d59",
+    "rowHash": "fc3dd11aed68d459cef1764ef0ea728e50b324d4474832935c11ef578c94ef6f",
+    "status": "approved",
+    "accuracyScore": 95,
+    "outboundUsefulnessScore": 86,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:46:56.611Z",
+    "rationale": "The row claims Citi Wealth’s launch of an AI agent (“Citi Sky”) and the provided source is an official Citigroup press release announcing “Citi Sky” as an always-on AI-powered member of the Citi Wealth team, built using Google Cloud and Google DeepMind, with specific launch features including financial guidance and conversational interaction. This directly matches the lane (official AI agent launch) and workflow (financial guidance). The account name/domain align with the publisher (citigroup.com). Source date and content appear consistent with a real publication date (April 22, 2026) rather than a future expiry/application date.",
+    "corrected": {
+      "accountName": "Citigroup Inc.",
+      "companyDomain": "citigroup.com",
+      "lane": "official_ai_agent_launches",
+      "signalType": "official_agent_launch",
+      "confidence": "high",
+      "sourceQuality": "official",
+      "fsiSubsector": "Wealth/RIA",
+      "workflow": "Financial Guidance"
+    },
+    "prospectWebsetSuggestion": {
+      "fitScore": 84,
+      "workflow": "Financial Guidance",
+      "title": "Monitor Citi Wealth “Citi Sky” and similar AI financial guidance agent rollouts",
+      "audience": "Citi Wealth / Digital Wealth & Advisor Experience teams; enterprise AI product owners in wealth management",
+      "monitorQuery": "site:citigroup.com (\"Citi Sky\" OR \"Citi Wealth\" OR \"AI-powered\" OR \"Gemini Enterprise Agent Platform\" OR \"Google DeepMind\" OR \"avatar\" OR \"real-time\") (launch OR unveiled OR roll-out OR available OR phased OR customers OR Citigold)",
+      "monitorCriteria": [
+        "New rollout/availability updates for Citi Sky (phased rollout, start date, expanded client eligibility)",
+        "Feature expansion details tied to financial guidance/advisor enablement (e.g., market insights, CD maturity prompts)",
+        "References to underlying platform changes (Gemini Enterprise Agent Platform / Gemini Live / governance or compliance statements)"
+      ],
+      "valueProposition": "Monitor fresh, cited public-web evidence for Financial Guidance.",
+      "rationale": "Monitor fresh, cited public-web evidence for Financial Guidance."
+    },
+    "issues": []
+  },
+  {
+    "signalId": "sig_7e51a2740373cbd9",
+    "rowHash": "e016d75e8358e55618458458ce71f07306d50e777acb1c8956cfde00cc77ce0e",
+    "status": "approved",
+    "accuracyScore": 95,
+    "outboundUsefulnessScore": 78,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:45:53.928Z",
+    "rationale": "The provided Business Wire press-release excerpt describes Wells Fargo & Company appointing Faraz Shafiq as Head of AI Products and Solutions effective Feb. 9, and it emphasizes generative/agentic AI and enterprise-wide AI-powered products. This is a concrete AI leadership adoption motion (appointment) tied to the named FSI account, making it actionable for an AE. However, the supplied search results do not include the actual Business Wire page content, so evidence corroboration beyond the user-provided excerpt is not possible from the provided Sources list.",
+    "corrected": {
+      "confidence": "high"
+    },
+    "prospectWebsetSuggestion": {
+      "fitScore": 74,
+      "workflow": "AI products & agent leadership GTM monitoring",
+      "title": "Wells Fargo AI leadership appointments & AI product/agent launches",
+      "audience": "AE targeting Wells Fargo AI product orgs (Head of AI / AI products & solutions leaders)",
+      "monitorQuery": "Wells Fargo \"AI Products and Solutions\" OR \"generative\" OR \"agentic\" appointment OR appointed Head of AI OR AI leadership",
+      "monitorCriteria": [
+        "Capture only items that explicitly mention Wells Fargo and an AI leadership appointment/role change (Head/VP/Director)",
+        "Include only sources that describe generative and/or agentic AI initiatives or AI-powered products (not generic AI commentary)",
+        "Prefer official Wells Fargo newsroom/press releases or major wire services (e.g., Business Wire) with a named role and effective date"
+      ],
+      "valueProposition": "Keeps an AE up to date on Wells Fargo’s AI leadership changes that are likely to correlate with new AI product/agent initiatives and internal roadmap execution.",
+      "rationale": "The signal is an AI leadership appointment focused on AI products/solutions and generative/agentic capabilities; monitoring for subsequent appointments and AI-powered product updates should surface outreach timing and the right internal stakeholders."
+    },
+    "issues": [
+      {
+        "field": "sourceDate",
+        "severity": "low",
+        "message": "The excerpt shows the press release dated Jan 26, 2026; this is consistent with a real publication timestamp in the excerpt text. No future-expiry/application-date issue is evident from provided data, but the full page is not present in the provided Sources list for independent verification."
+      }
+    ]
+  },
+  {
+    "signalId": "sig_1bf971fffce33cca",
+    "rowHash": "4efd4519b4339d23cac0dd26e817f57f47f751a7de817ed946f0e7f8fa22e7ef",
+    "status": "approved",
+    "accuracyScore": 92,
+    "outboundUsefulnessScore": 88,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:45:59.365Z",
+    "rationale": "The cited source is an official Sygnum press release on sy g num.com (matching both the account domain and URL) describing a concrete AI-agent deployment: Sygnum became the first Swiss regulated bank to use an AI agent to test/live on-chain digital asset transactions, with client signing every action and keys retained on device, aligned to an “On-Chain Transactions” workflow and an official AI-agent pilot launch. The source is directly evidence for the claimed signal (not generic AI commentary). Source date provided (18 May 2026) matches the excerpted press release date and is not a future/expiry date pattern.",
+    "corrected": {},
+    "prospectWebsetSuggestion": {
+      "fitScore": 86,
+      "workflow": "On-Chain Transactions",
+      "title": "Sygnum: AI-agent digital asset transaction updates (human-in-the-loop, regulated on-chain execution)",
+      "audience": "FSI AI/product & innovation leaders in regulated digital-asset banking/infrastructure",
+      "monitorQuery": "site:sygnum.com (\"AI agent\" OR \"agent-driven\" OR \"AI@Sygnum\" OR \"human-in-the-loop\") (transaction OR on-chain OR \"digital asset\" OR stablecoin OR tokenized OR \"smart contract\")",
+      "monitorCriteria": [
+        "Verify new/updated Sygnum announcements on deployed or expanding AI-agent workflows for live/on-chain transactions (not internal strategy-only posts).",
+        "Require explicit governance / human-in-the-loop / consent / client-key custody language indicating operational control for regulated execution.",
+        "Capture mentions of supported asset classes and transaction types (e.g., stablecoins, tokenized equities, gold/securities) to keep outbound relevance for on-chain execution agents."
+      ],
+      "valueProposition": "Helps an AE targeting Sygnum (and similar regulated banks) catch incremental evidence that their AI agents are moving from pilots into broader, regulated, human-in-the-loop on-chain transaction capabilities—plus governance details that matter for counterparties and regulators.",
+      "rationale": "The row’s evidence focuses on an official press release about AI-agent-driven live on-chain transactions by a regulated Swiss bank. An outbound prospect-facing Webset should monitor for follow-on announcements that expand or operationalize that workflow and its governance details."
+    },
+    "issues": []
+  },
+  {
+    "signalId": "sig_e5cd1a1489f0085b",
+    "rowHash": "c73e3b08ac58c4798012c4a54e108760f64b364c30655dc153f8e7d715b9487c",
+    "status": "needs_review",
+    "accuracyScore": 80,
+    "outboundUsefulnessScore": 85,
+    "reviewerModel": "exa-answer/output-schema",
+    "reviewedAt": "2026-06-05T11:46:06.420Z",
+    "rationale": "Row claims an official vendor partner announcement that Interactive Brokers integrated AI (frontier model) into client portfolio/trade workflows, including client approval of AI-generated trade instructions. The provided source URL/domain is on interactivebrokers.com and the excerpt contains detailed, concrete workflow language (AI chat/agents using IBKR account data, an “AI Instructions” tab, and client approval before orders are submitted), which matches the claimed agentic AI-trade workflow. However, from the supplied search results we do not have the exact press-release page content beyond the provided excerpt text, and the sourceDate field (2026-06-01) is not independently corroborated here. Lane/workflow mapping is plausible (Trade Execution) but signalType may be slightly misclassified: this looks like an IBKR direct product/feature announcement rather than a third-party “vendor partner” announcement, even if frontier model is mentioned. Therefore approve with correction needed / minor review.",
+    "corrected": {
+      "signalType": "customer_ai_assistants",
+      "confidence": "medium",
+      "sourceQuality": "official"
+    },
+    "prospectWebsetSuggestion": {
+      "fitScore": 78,
+      "workflow": "Trade Execution",
+      "title": "Monitor broker-run agentic trading / client-approved AI instruction workflows",
+      "audience": "FSI product, digital trading, and AI innovation teams at broker-dealers/market infrastructure looking to support or evaluate agentic, client-controlled trade instruction workflows",
+      "monitorQuery": "site:interactivebrokers.com (frontier model OR AI) (agentic OR \"AI Instructions\" OR chatbot OR agent) (portfolio OR trade OR orders OR execution)",
+      "monitorCriteria": [
+        "Mentions an AI/agent integration into client trading or portfolio workflows",
+        "Indicates client approval / human-in-the-middle controls before orders are submitted",
+        "Specifies supported asset types and order types (e.g., equities/ETFs, market/limit) or rollout/launch details"
+      ],
+      "valueProposition": "Alert on new releases and expansions of agentic AI features that generate trade instructions from customer account data with explicit client-approval controls—useful for evaluating competitive capabilities, regulatory/UX patterns, and integration approaches for execution workflows.",
+      "rationale": "Alert on new releases and expansions of agentic AI features that generate trade instructions from customer account data with explicit client-approval controls—useful for evaluating competitive capabilities, regulatory/UX patterns, and integration approaches for execution workflows."
+    },
+    "issues": [
+      {
+        "field": "signalType",
+        "severity": "medium",
+        "message": "The page appears to be an Interactive Brokers direct product/feature announcement (AI integration into client portfolios/trading). Even though frontier model is referenced, it may not fit a strict “vendor_partner_announcement” classification versus “customer_ai_assistants” / direct launch of an AI feature."
+      },
+      {
+        "field": "sourceDate",
+        "severity": "low",
+        "message": "Source publication date is not independently corroborated in the provided results; needs verification to ensure 2026-06-01 is the actual publish date (not an expiry/application date)."
+      }
+    ]
+  },
+  {
+    "signalId": "sig_1bf971fffce33cca",
+    "rowHash": "4efd4519b4339d23cac0dd26e817f57f47f751a7de817ed946f0e7f8fa22e7ef",
+    "status": "approved",
+    "accuracyScore": 98,
+    "outboundUsefulnessScore": 95,
+    "reviewerModel": "gpt-5.5/xhigh/priority/coding agent-cli",
+    "reviewedAt": "2026-06-05T10:59:57.807Z",
+    "rationale": "Official Sygnum source directly supports the claimed signal: a regulated Swiss bank tested live AI-agent-driven on-chain digital asset transactions, with concrete workflow details including interpreting client instructions, planning multi-step transactions, reviewing smart contracts, flagging risks, and preserving human approval. Account, domain, lane, confidence, source quality, subsector, and workflow are all supported by the provided evidence.",
+    "corrected": {},
+    "issues": []
+  },
+  {
+    "signalId": "sig_e5cd1a1489f0085b",
+    "rowHash": "c73e3b08ac58c4798012c4a54e108760f64b364c30655dc153f8e7d715b9487c",
+    "status": "approved",
+    "accuracyScore": 96,
+    "outboundUsefulnessScore": 94,
+    "reviewerModel": "gpt-5.5/xhigh/priority/coding agent-cli",
+    "reviewedAt": "2026-06-05T11:00:12.151Z",
+    "rationale": "Official Interactive Brokers source directly supports a concrete agentic AI portfolio and trade-instruction workflow using frontier model. The excerpt substantiates account-data analysis, API-backed access, generated trade instructions, and human approval before order submission. Account/domain, FSI fit, confidence, source quality, subsector, and workflow are all plausible and useful for outbound.",
+    "corrected": {},
+    "issues": []
+  },
+  {
+    "signalId": "sig_1bec1c391af10d59",
+    "rowHash": "fc3dd11aed68d459cef1764ef0ea728e50b324d4474832935c11ef578c94ef6f",
+    "status": "approved",
+    "accuracyScore": 98,
+    "outboundUsefulnessScore": 94,
+    "reviewerModel": "gpt-5.5/xhigh/priority/coding agent-cli",
+    "reviewedAt": "2026-06-05T11:00:23.007Z",
+    "rationale": "Official Citigroup press release directly supports the claimed signal: Citi Wealth unveiled Citi Sky as an AI-powered, always-on member of the wealth team, built with Google Cloud/DeepMind and Gemini Enterprise Agent Platform, with concrete financial guidance and conversational client/advisor workflows. Account, domain, lane, confidence, source quality, subsector, and workflow are all plausible and useful for AE outbound.",
+    "corrected": {},
+    "issues": []
+  },
+  {
+    "signalId": "sig_caed1c6d3daf0306",
+    "rowHash": "46cda788dbf0da474284f30d65821f9d855a62ac8dc651f52482cd10dcb319c8",
+    "status": "approved",
+    "accuracyScore": 95,
+    "outboundUsefulnessScore": 88,
+    "reviewerModel": "gpt-5.5/xhigh/priority/coding agent-cli",
+    "reviewedAt": "2026-06-05T11:00:39.130Z",
+    "rationale": "The evidence directly supports the named account and signal: Wells Fargo announced Faraz Shafiq as Head of AI Products and Solutions, with explicit references to generative and agentic AI and enterprise-wide AI-powered products. The account/domain, FSI subsector, lane, signal type, confidence, and source quality are plausible for this AI leadership hiring signal.",
+    "corrected": {},
+    "issues": []
+  },
+  {
+    "signalId": "sig_e475df55a93ec782",
+    "rowHash": "59b94445e81a318a5636d85557cf9cd6ceb3b0629ba1723fbbcfc443cba15a81",
+    "status": "approved",
+    "accuracyScore": 96,
+    "outboundUsefulnessScore": 74,
+    "reviewerModel": "gpt-5.5/xhigh/priority/coding agent-cli",
+    "reviewedAt": "2026-06-05T11:00:50.711Z",
+    "rationale": "The evidence directly supports Hang Seng Bank launching customer-facing AI chatbots HARO and DORI for retail banking, with explicit AI, machine learning, and NLP language. The account, domain, FSI subsector, lane, confidence, and mortgage workflow are supported by the excerpt. Outbound usefulness is reduced only because the signal is dated 2018.",
+    "corrected": {},
+    "issues": []
+  },
+  {
+    "signalId": "sig_7e51a2740373cbd9",
+    "rowHash": "e016d75e8358e55618458458ce71f07306d50e777acb1c8956cfde00cc77ce0e",
+    "status": "approved",
+    "accuracyScore": 96,
+    "outboundUsefulnessScore": 92,
+    "reviewerModel": "gpt-5.5/xhigh/priority/coding agent-cli",
+    "reviewedAt": "2026-06-05T10:38:40.616Z",
+    "rationale": "The row is clearly FSI banking, and the source title directly supports an AI leadership appointment at Wells Fargo. Account name, domain, lane, confidence, subsector, and workflow are plausible and useful for AE outbound.",
+    "corrected": {},
+    "issues": []
+  }
+]
